@@ -1,14 +1,192 @@
-/* design-overrides.css — per-client CSS authored or refined by Claude.ai Design.
- *
- * This file is loaded AFTER src/styles/theme.css, so any rules here override
- * the default block styling. Target blocks via the data-block attribute:
- *
- *   [data-block="hero"] { ... }
- *   [data-block="feature-grid"] h2 { ... }
- *
- * Cascade order: tailwindcss → theme.css → design-overrides.css. Use specific
- * selectors (data-block attribute + descendant) instead of !important.
- *
- * To regenerate: run `npm run export-brief`, paste the brief into Claude.ai
- * Design, save the returned CSS as this file, then `npm run dev`.
- */
+/* design-overrides.css — managed by the Revaltus Design Studio.
+ * The design-studio region below is regenerated on every apply; edit it through the Studio. */
+
+/* design-studio:begin */
+/* design-studio:global */
+:root {
+    --c5-media-grade-opacity: 0.3;
+    --c5-media-grade-fill: linear-gradient(160deg,var(--color-primary) 0%,var(--color-complementary) 140%);
+    --tracking-display: -0.02em
+
+
+}
+[data-block="intro-text"] h2,[data-block="service-cards"] h2,[data-block="content-split"] h2,[data-block="checklist-section"] h2,[data-block="faq-accordion"] h2,[data-block="cta-banner"] h2,[data-block="testimonials"] h2,[data-block="process-steps"] h2,[data-block="feature-grid"] h2,[data-block="team-grid"] h2,[data-block="page-header"] h1 {
+    font-family: var(--font-heading);
+    font-weight: 300;
+    letter-spacing: -0.01em
+}
+[data-block="intro-text"] .prose {
+    max-width: 62ch;
+    margin-inline: auto
+}
+[data-block="intro-text"] a,[data-block="checklist-section"] a {
+    color: var(--color-action-text)
+}
+[data-block="checklist-section"] li {
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 0.75rem
+}
+[data-block="checklist-section"] .overflow-hidden {
+    border-radius: 14px 240px 14px 14px
+}
+[data-block="cta-banner"] a {
+    color: inherit
+}
+[data-block="faq-accordion"] .border-b {
+    border-color: var(--color-complementary)
+}
+[data-component="navbar"] {
+    border-bottom: 1px solid var(--color-complementary)
+}
+[data-component="navbar"] ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem
+}
+[data-component="navbar"] button {
+    background: transparent;
+    border: 0;
+    color: var(--color-primary);
+    font-family: var(--font-body);
+    cursor: pointer
+}
+[data-component="navbar"] a {
+    color: var(--color-primary);
+    text-decoration: none
+}
+[data-component="navbar"] a[data-c5="button"] {
+    border: 1px solid var(--color-primary);
+    border-radius: 999px;
+    padding: 0.5rem 1.1rem;
+    background: transparent
+}
+[data-component="topbar"] a,[data-component="footer"] a {
+    color: inherit;
+    text-decoration: none
+}
+[data-component="contact-drawer"] {
+    box-shadow: 0 10px 24px -10px rgba(20,40,60,0.45)
+}
+/* /design-studio:global */
+/* design-studio:hero */
+[data-block="hero"] {
+    background-color: var(--color-background);
+    background-image: linear-gradient(to bottom,var(--color-background),transparent),repeating-linear-gradient(180deg,var(--color-complementary) 0,var(--color-complementary) 1px,transparent 1px,transparent 9px);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 48px
+}
+@media (max-width: 640px) {
+    [data-block="hero"] {
+        background-image: none
+    }
+}
+[data-block="hero"] h1 {
+    font-family: var(--font-body);
+    font-weight: 300;
+    letter-spacing: var(--tracking-display)
+}
+[data-block="hero"] h1 .font-accent {
+    font-family: var(--font-accent);
+    font-weight: 300;
+    font-style: italic
+}
+[data-block="hero"] .t-kicker {
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-primary)
+}
+[data-block="hero"] p {
+    max-width: 46ch
+}
+[data-block="hero"] a[data-c5="button"] {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background: var(--color-action);
+    color: var(--color-action-foreground);
+    border-radius: 999px;
+    padding: 0.85rem 1.6rem;
+    text-decoration: none
+}
+[data-block="hero"] .u-frame {
+    border-radius: 260px 260px 14px 14px;
+    outline: 1px solid var(--color-complementary);
+    outline-offset: 10px;
+    box-shadow: 0 28px 48px -26px rgba(20,40,60,0.4)
+}
+/* /design-studio:hero */
+/* design-studio:content-split */
+[data-block="content-split"] .u-frame {
+    border-radius: 14px 14px 240px 14px;
+    outline: 1px solid var(--color-complementary);
+    outline-offset: 10px;
+    box-shadow: 0 24px 44px -26px rgba(20,40,60,0.35)
+}
+[data-block="content-split"] .prose p:first-of-type::first-letter {
+    font-family: var(--font-accent);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 3.4em;
+    line-height: 0.85;
+    float: left;
+    padding-right: 0.12em;
+    color: var(--color-primary)
+}
+[data-block="content-split"] h2 {
+    max-width: 20ch
+}
+/* /design-studio:content-split */
+/* design-studio:service-cards */
+[data-block="service-cards"] {
+    background-color: var(--color-secondary);
+    box-shadow: 0 0 0 100vmax var(--color-secondary);
+    clip-path: inset(0 -100vmax)
+}
+[data-block="service-cards"] header {
+    text-align: left;
+    margin-inline: 0
+}
+[data-block="service-cards"] .grid {
+    gap: 0
+}
+[data-block="service-cards"] .u-card {
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    border: 0;
+    border-top: 1px solid var(--color-complementary)
+}
+[data-block="service-cards"] .u-card:hover {
+    transform: none;
+    box-shadow: none;
+    background: var(--color-background)
+}
+[data-block="service-cards"] .u-card > div {
+    padding-block: 1.75rem
+}
+[data-block="service-cards"] .u-icon-square {
+    width: 44px;
+    height: 44px;
+    flex: none;
+    display: grid;
+    place-items: center;
+    border-radius: 999px;
+    background: var(--color-background);
+    color: var(--color-primary)
+}
+/* /design-studio:service-cards */
+/* design-studio:cta-banner */
+[data-block="cta-banner"] {
+    background-image: linear-gradient(to bottom,var(--color-primary),transparent),repeating-linear-gradient(180deg,var(--color-complementary) 0,var(--color-complementary) 1px,transparent 1px,transparent 9px);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 56px
+}
+/* /design-studio:cta-banner */
+/* design-studio:end */
