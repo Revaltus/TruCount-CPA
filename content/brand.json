@@ -16,12 +16,12 @@
     "hours": "Mon–Thu 8:00am–4:00pm; Fri–Sun Closed"
   },
   "palette": {
-    "primary": "#1F3A5F",
-    "secondary": "#5A6B7B",
-    "complementary": "#C2703D",
-    "action": "#0E8C9C",
-    "nearBlack": "#1A1C1E",
-    "nearWhite": "#F8F8F6"
+    "primary": "#1d4452",
+    "secondary": "#efe6cf",
+    "complementary": "#b5701c",
+    "action": "#087a6c",
+    "nearBlack": "#1b2128",
+    "nearWhite": "#faf7f0"
   },
   "social": [
     {

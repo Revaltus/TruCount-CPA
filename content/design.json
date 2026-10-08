@@ -1,26 +1,41 @@
 {
   "typography": {
-    "headingFont": "Inter",
-    "bodyFont": "Inter",
-    "googleFontsUrl": "",
+    "headingFont": "Fraunces",
+    "bodyFont": "DM Sans",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;700&family=DM+Sans:wght@400;500;700&display=swap",
     "accentFont": "Fraunces"
   },
   "roundness": "soft",
-  "density": "balanced",
-  "visualFeel": "modern",
+  "density": "airy",
+  "visualFeel": "editorial",
   "spacing": {
-    "xs": "4px",
-    "sm": "8px",
-    "md": "16px",
-    "lg": "24px",
-    "xl": "48px",
-    "2xl": "96px"
+    "xs": "6px",
+    "sm": "12px",
+    "md": "20px",
+    "lg": "32px",
+    "xl": "64px",
+    "2xl": "120px"
   },
   "radius": {
     "none": "0px",
     "sm": "4px",
     "md": "8px",
-    "lg": "16px",
-    "pill": "8px"
+    "lg": "14px",
+    "pill": "999px"
+  },
+  "headlineStyle": "serif",
+  "eyebrowStyle": "mono",
+  "darkSections": true,
+  "style": {
+    "sectionRhythm": "generous",
+    "cards": "flat",
+    "buttons": "pill",
+    "heroScale": "dramatic",
+    "imageTreatment": "natural",
+    "nav": "bordered",
+    "footer": "brand"
+  },
+  "layout": {
+    "cards": "list"
   }
 }
