@@ -6,9 +6,6 @@ old_url,new_url,status_code,reason
 /industries/agriculture/multi-entity-farm-tax-strategy,/industries/farmers/multi-entity-farm-tax-strategy,301,Relocated via AI
 /industries/agriculture,/industries/farmers,301,Relocated via AI
 /agribusiness,/who-we-are/industries/agribusiness,301,Nested via nav editor
-/resources/forms-documents-and-links,/resources/resources-library/forms-documents-and-links,301,Nested via nav editor
-/resources/refund-tracker,/resources/resources-library/refund-tracker,301,Nested via nav editor
-/resources/video-library,/resources/resources-library/video-library,301,Nested via nav editor
 /services/bookkeeping,/services/outsourced-accounting/bookkeeping,301,Nested via nav editor
 /services/payroll,/services/outsourced-accounting/payroll,301,Nested via nav editor
 /services/tax,/services/outsourced-accounting/tax,301,Nested via nav editor
@@ -35,7 +32,10 @@ old_url,new_url,status_code,reason
 /who-we-are/industries/who-we-are/careers,/who-we-are/careers,301,Relocated via AI
 /who-we-are/industries/who-we-are,/who-we-are,301,Relocated via AI
 /who-we-are/industries,/who-we-serve,301,Relocated via AI
-/who-we-are/careers,/resources/careers,301,Relocated via AI
 /careers,/resources/resources-library/forms-documents-and-links/careers,301,Nested via nav editor
-/resources/resources-library/forms-documents-and-links/careers,/resources/resources-library/careers,301,Nested via nav editor
+/resources/resources-library/forms-documents-and-links/careers,/who-we-are/careers,301,Nested via nav editor
 /what-we-do/outsourced-accounting/bookkeeping,/what-we-do/outsourced-accounting/accounting,301,Relocated via AI
+/resources/resources-library/careers,/who-we-are/careers,301,Nested via nav editor
+/resources/resources-library/forms-documents-and-links,/resources/forms-documents-and-links,301,Nested via nav editor
+/resources/resources-library/refund-tracker,/resources/refund-tracker,301,Nested via nav editor
+/resources/resources-library/video-library,/resources/video-library,301,Nested via nav editor

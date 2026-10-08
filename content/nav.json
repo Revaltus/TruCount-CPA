@@ -74,37 +74,39 @@
     },
     {
       "label": "Who we are",
-      "url": "/who-we-are"
+      "url": "/who-we-are",
+      "children": [
+        {
+          "label": "Careers",
+          "url": "/who-we-are/careers"
+        }
+      ]
     },
     {
       "label": "Pricing",
       "url": "/pricing"
     },
     {
-      "label": "Resources library",
-      "url": "/resources/resources-library",
+      "label": "Resources",
+      "url": "/resources",
       "children": [
         {
+          "label": "Resources library",
+          "url": "/resources/resources-library"
+        },
+        {
           "label": "Forms documents and links",
-          "url": "/resources/resources-library/forms-documents-and-links"
+          "url": "/resources/forms-documents-and-links"
         },
         {
           "label": "Refund tracker",
-          "url": "/resources/resources-library/refund-tracker"
+          "url": "/resources/refund-tracker"
         },
         {
           "label": "Video library",
-          "url": "/resources/resources-library/video-library"
-        },
-        {
-          "label": "Careers",
-          "url": "/resources/resources-library/careers"
+          "url": "/resources/video-library"
         }
       ]
-    },
-    {
-      "label": "Resources",
-      "url": "/resources"
     },
     {
       "label": "Contact",
