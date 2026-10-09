@@ -5,12 +5,16 @@
       "url": "/what-we-do",
       "children": [
         {
-          "label": "Personal income tax",
-          "url": "/what-we-do/personal-income-tax"
-        },
-        {
           "label": "Outsourced Accounting",
           "url": "/what-we-do/outsourced-accounting"
+        },
+        {
+          "label": "Advisory Services",
+          "url": "/what-we-do/advisory-services"
+        },
+        {
+          "label": "Personal income tax",
+          "url": "/what-we-do/personal-income-tax"
         }
       ]
     },
@@ -71,10 +75,6 @@
     {
       "label": "Contact",
       "url": "/contact"
-    },
-    {
-      "label": "Advisory Services 2",
-      "url": "/advisory-services-2"
     }
   ],
   "cta": {
