@@ -1,5 +1,5 @@
 ---
-title: "Outsourced Accounting 2 | TruCount CPA PC"
+title: "Outsourced Accounting | TruCount CPA PC"
 url: "/what-we-do/outsourced-accounting-2"
 meta_title: "Outsourced Accounting in Brookings, SD | TruCount CPA PC"
 meta_description: "Outsourced accounting, payroll, and business tax for farms, agribusinesses, and professional service firms in Brookings, SD. One fixed monthly fee, no billing surprises."
