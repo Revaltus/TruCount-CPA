@@ -1,5 +1,5 @@
 ---
-title: "Advisory Services 2 | TruCount CPA PC"
+title: "Advisory Services | TruCount CPA PC"
 url: "/what-we-do/advisory-services"
 meta_title: "CFO-Level Advisory Services for Farms and Businesses | Brookings, SD"
 meta_description: "CFO-level advisory for farmers, agribusiness and professional service owners in Brookings, SD. Entity analysis, succession and R&D credits, bundled in one fixed monthly fee."
