@@ -111,6 +111,20 @@ Every farm, agribusiness, and professional service business runs differently, so
 
 The TruCount team serves the Brookings, SD area and the Midwest. [Schedule a consultation](/contact) and get out of the books and back to your business.
 
+<!-- block: faq-accordion -->
+## Frequently Asked Questions
+
+**Q: What is included in outsourced accounting services?**
+A: TruCount's outsourced accounting bundles accounting, payroll coordination, tax planning, and CFO-level advisory into one fixed monthly fee. You get a full back-office team, real-time financial access through a secure online platform, and year-round tax strategy, without hiring in-house staff.
+
+**Q: How much does outsourced accounting cost in Brookings, SD and across the Midwest?**
+A: Pricing depends on your business size, entity structure, and current bookkeeping setup. TruCount scopes a fixed monthly fee after a consultation, so there are no hourly surprises or per-service invoices once your plan is set.
+
+**Q: Can outsourced accounting work for a farm or agribusiness?**
+A: Yes. TruCount handles multi-entity farm structures, seasonal cash flow planning, and ag-specific deductions like the R&D credit and excess fertility deduction. This is a core focus for the firm, not an add-on service.
+
+**Q: How is this different from hiring a part-time bookkeeper?**
+A: A part-time bookkeeper handles data entry. TruCount's outsourced department adds payroll coordination, tax planning, and CFO-level advisory from a team with years of combined experience, all under one predictable fee.
 
 ---
 ## SEO & AIO Metadata
