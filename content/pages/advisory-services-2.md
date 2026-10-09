@@ -86,6 +86,29 @@ The best time to start is before you feel you have to. We'll help you get there.
 
 Whether you are choosing an entity, planning for the next generation, or just want to know where your business stands, we're here to help. Reach out to TruCount CPA in Brookings, SD, and let's talk about how CFO-level insight, bundled into one fixed monthly fee, can give you more time to run the business you built.
 
+<!-- block: faq-accordion -->
+## Frequently Asked Questions
+
+**Q: What does CFO-level advisory include?**
+A: It includes budgeting, cash flow analysis, revenue and expense analysis, and guidance on decisions like entity structure, retirement plans and succession. It is bundled into your fixed monthly fee, so there are no billing surprises.
+
+**Q: How is advisory billed?**
+A: Advisory support comes bundled with your accounting and tax work for one fixed monthly fee. You always know what to expect on the invoice.
+
+**Q: How do I know if my farm or business has the right entity type?**
+A: If your structure was set up years ago and never reviewed, it is worth a look. We compare options side by side, including taxes, paperwork and how income and ownership flow between people, then handle the state and federal forms.
+
+**Q: Can farmers qualify for the R&D tax credit?**
+A: Possibly. Farmers and agribusiness operators who test new practices, refine equipment or improve how they produce crops or livestock may have qualifying activity. We review the details with you and tell you honestly if it is not a fit.
+
+**Q: When should we start succession planning?**
+A: Ideally before you feel you have to. Starting early gives us time to structure the ownership transfer, plan for taxes and value the business, one step at a time.
+
+**Q: Do you work with professional service businesses as well as farms?**
+A: Yes. We serve farmers, agribusiness operators and professional service business owners in Brookings, SD and across the Midwest.
+
+**Q: Can you help clean up an accounting system that has gotten messy?**
+A: Yes. We review what is there, fix what has drifted and rebuild the structure so your books are clear again, then connect it to our secure online platform for real-time access.
 
 ---
 ## SEO & AIO Metadata
