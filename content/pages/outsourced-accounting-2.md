@@ -105,8 +105,7 @@ This is where the fixed monthly fee really matters. Tax advice is included in yo
 
 We are proud members of the AICPA, the South Dakota Society of CPAs, and the Brookings Area Chamber of Commerce, and we are rooted in the community we serve. If you are looking for tax preparation services in Brookings, South Dakota that feel personal, proactive, and clear, we are ready to help. Get in touch today, and let us show you what year-round tax planning can do for your business.
 
-<!-- block: cta-banner | variant: color-bg -->
-## Let's build your outsourced accounting plan
+**Let's build your outsourced accounting plan**
 
 Every farm, agribusiness, and professional service business runs differently, so your fixed monthly fee should reflect your actual workload, not a generic package. Tell us what you're running now, whether that's a one-person bookkeeping setup or nothing at all, and we'll scope a bundle that covers accounting, payroll coordination, tax planning, and advisory under one price.
 
