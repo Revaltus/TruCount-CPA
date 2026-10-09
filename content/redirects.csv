@@ -17,7 +17,7 @@ old_url,new_url,status_code,reason
 /services/outsourced-accounting/bookkeeping,/what-we-do/outsourced-accounting/bookkeeping,301,Relocated via AI
 /services/outsourced-accounting/payroll,/outsourced-accounting-old/payroll,301,Relocated via AI
 /services/outsourced-accounting/tax,/what-we-do/outsourced-accounting/tax,301,Relocated via AI
-/services/advisory-services/entity-type-analysis,/what-we-do/advisory-services/entity-type-analysis,301,Relocated via AI
+/services/advisory-services/entity-type-analysis,/what-we-do/advisory-services-old/entity-type-analysis,301,Relocated via AI
 /services/advisory-services/retirement-plan-analysis,/what-we-do/advisory-services-old/retirement-plan-analysis,301,Relocated via AI
 /services/advisory-services/accounting-system-setup,/what-we-do/advisory-services/accounting-system-setup,301,Relocated via AI
 /services/advisory-services/r-and-d-tax-credits,/what-we-do/advisory-services/r-and-d-tax-credits,301,Relocated via AI
@@ -45,3 +45,4 @@ old_url,new_url,status_code,reason
 /what-we-do/outsourced-accounting/business-tax,/outsourced-accounting-old/business-tax,301,Relocated via AI
 /what-we-do/outsourced-accounting-2,/what-we-do/outsourced-accounting,301,Relocated via AI
 /what-we-do/advisory-services/retirement-plan-analysis,/what-we-do/advisory-services-old/retirement-plan-analysis,301,Relocated via AI
+/what-we-do/advisory-services/entity-type-analysis,/what-we-do/advisory-services-old/entity-type-analysis,301,Relocated via AI
