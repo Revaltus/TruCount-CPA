@@ -51,6 +51,10 @@
         {
           "label": "Personal income tax",
           "url": "/what-we-do/personal-income-tax"
+        },
+        {
+          "label": "Outsourced Accounting 2",
+          "url": "/what-we-do/outsourced-accounting-2"
         }
       ]
     },
@@ -111,10 +115,6 @@
     {
       "label": "Contact",
       "url": "/contact"
-    },
-    {
-      "label": "Outsourced Accounting 2",
-      "url": "/outsourced-accounting-2"
     }
   ],
   "cta": {
