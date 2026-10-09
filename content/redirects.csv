@@ -15,16 +15,16 @@ old_url,new_url,status_code,reason
 /who-we-are/industries/service-based-businesses,/who-we-are/industries/professional-service-businesses,301,Relocated via AI
 /industries/service-based-businesses/exit-planning,/industries/professional-service-businesses/exit-planning,301,Relocated via AI
 /services/outsourced-accounting/bookkeeping,/what-we-do/outsourced-accounting/bookkeeping,301,Relocated via AI
-/services/outsourced-accounting/payroll,/what-we-do/outsourced-accounting/payroll,301,Relocated via AI
+/services/outsourced-accounting/payroll,/outsourced-accounting-old/payroll,301,Relocated via AI
 /services/outsourced-accounting/tax,/what-we-do/outsourced-accounting/tax,301,Relocated via AI
-/services/advisory-services/entity-type-analysis,/what-we-do/advisory-services/entity-type-analysis,301,Relocated via AI
-/services/advisory-services/retirement-plan-analysis,/what-we-do/advisory-services/retirement-plan-analysis,301,Relocated via AI
-/services/advisory-services/accounting-system-setup,/what-we-do/advisory-services/accounting-system-setup,301,Relocated via AI
-/services/advisory-services/r-and-d-tax-credits,/what-we-do/advisory-services/r-and-d-tax-credits,301,Relocated via AI
-/services/advisory-services/succession-planning,/what-we-do/advisory-services/succession-planning,301,Relocated via AI
+/services/advisory-services/entity-type-analysis,/what-we-do/advisory-services-old/entity-type-analysis,301,Relocated via AI
+/services/advisory-services/retirement-plan-analysis,/what-we-do/advisory-services-old/retirement-plan-analysis,301,Relocated via AI
+/services/advisory-services/accounting-system-setup,/what-we-do/advisory-services-old/accounting-system-setup,301,Relocated via AI
+/services/advisory-services/r-and-d-tax-credits,/what-we-do/advisory-services-old/r-and-d-tax-credits,301,Relocated via AI
+/services/advisory-services/succession-planning,/what-we-do/advisory-services-old/succession-planning,301,Relocated via AI
 /services/personal-income-tax,/what-we-do/personal-income-tax,301,Relocated via AI
-/services/outsourced-accounting,/what-we-do/outsourced-accounting,301,Relocated via AI
-/services/advisory-services,/what-we-do/advisory-services,301,Relocated via AI
+/services/outsourced-accounting,/outsourced-accounting-old,301,Relocated via AI
+/services/advisory-services,/what-we-do/advisory-services-old,301,Relocated via AI
 /services,/what-we-do,301,Relocated via AI
 /who-we-are/industries/farmers,/who-we-serve/farmers,301,Relocated via AI
 /who-we-are/industries/professional-service-businesses,/who-we-serve/professional-service-businesses,301,Relocated via AI
@@ -34,8 +34,19 @@ old_url,new_url,status_code,reason
 /who-we-are/industries,/who-we-serve,301,Relocated via AI
 /careers,/resources/resources-library/forms-documents-and-links/careers,301,Nested via nav editor
 /resources/resources-library/forms-documents-and-links/careers,/who-we-are/careers,301,Nested via nav editor
-/what-we-do/outsourced-accounting/bookkeeping,/what-we-do/outsourced-accounting/accounting,301,Relocated via AI
+/what-we-do/outsourced-accounting/bookkeeping,/outsourced-accounting-old/accounting,301,Relocated via AI
 /resources/resources-library/careers,/who-we-are/careers,301,Nested via nav editor
 /resources/resources-library/forms-documents-and-links,/resources/forms-documents-and-links,301,Nested via nav editor
 /resources/resources-library/refund-tracker,/resources/refund-tracker,301,Nested via nav editor
 /resources/resources-library/video-library,/resources/video-library,301,Nested via nav editor
+/outsourced-accounting-2,/what-we-do/outsourced-accounting,301,Nested via nav editor
+/what-we-do/outsourced-accounting/accounting,/outsourced-accounting-old/accounting,301,Relocated via AI
+/what-we-do/outsourced-accounting/payroll,/outsourced-accounting-old/payroll,301,Relocated via AI
+/what-we-do/outsourced-accounting/business-tax,/outsourced-accounting-old/business-tax,301,Relocated via AI
+/what-we-do/outsourced-accounting-2,/what-we-do/outsourced-accounting,301,Relocated via AI
+/what-we-do/advisory-services/retirement-plan-analysis,/what-we-do/advisory-services-old/retirement-plan-analysis,301,Relocated via AI
+/what-we-do/advisory-services/entity-type-analysis,/what-we-do/advisory-services-old/entity-type-analysis,301,Relocated via AI
+/what-we-do/advisory-services/accounting-system-setup,/what-we-do/advisory-services-old/accounting-system-setup,301,Relocated via AI
+/what-we-do/advisory-services/r-and-d-tax-credits,/what-we-do/advisory-services-old/r-and-d-tax-credits,301,Relocated via AI
+/what-we-do/advisory-services/succession-planning,/what-we-do/advisory-services-old/succession-planning,301,Relocated via AI
+/advisory-services-2,/what-we-do/advisory-services,301,Nested via nav editor

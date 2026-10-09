@@ -1,28 +1,21 @@
 ---
-title: "Advisory Services | TruCount CPA PC"
-url: "/services/advisory-services"
-meta_title: "CPA Advisory Services for Small Business | TruCount CPA"
-meta_description: "Get CFO-level financial insight without the CFO price tag. TruCount CPA offers year-round advisory support for ag operations and service businesses in Brookings, SD, and the Midwest."
-target_keyword: "CPA advisory services for ag business"
-secondary_keywords: ["CFO advisory services","business advisory CPA South Dakota","year-round tax planning for small business","outsourced CFO services agriculture"]
-canonical_url: "https://trucountcpa.com/services/advisory-services"
-schema_markup: "Service"
-cta_text: "Schedule a consultation"
-cta_url: "/contact"
-hero: "hero-split"
-hero_variant: "image-right"
-hero_image: "cfo-advisory-consultation.jpg"
-hero_image_alt: "CPA and small business owner reviewing financial plans at a desk"
-hero_subhead: "Get CFO-level strategy and year-round guidance without adding a salary to your books"
-hero_headline: "CFO-Level Insight Without the CFO Price Tag"
-answer_block: "TruCount CPA's advisory services give small business owners CFO-level financial strategy, cash flow forecasting, and year-round tax planning bundled into a fixed monthly fee. Instead of a once-a-year tax conversation, clients get ongoing guidance from a CPA who already knows their numbers, delivered through a secure online platform."
-eeat_signals: ["Julie Underwood is a licensed CPA","Firm founded in 2009 with 16 years of continuous operation","Active membership in the AICPA","Active membership in the South Dakota Society of CPAs","Member of the Brookings Area Chamber of Commerce"]
-internal_links: [{"url":"/services/bookkeeping","anchor_text":"bookkeeping","reason":"Shows advisory is bundled with core bookkeeping service"},{"url":"/services/tax","anchor_text":"tax","reason":"Links to related tax planning service"},{"url":"/who-we-are/industries/agribusiness","anchor_text":"agribusiness","reason":"Connects to agribusiness industry page relevant to advisory clients"},{"url":"/who-we-are/industries/farmers","anchor_text":"farm","reason":"Connects to farmer industry page relevant to advisory clients"},{"url":"/pricing-calculator","anchor_text":"pricing calculator","reason":"Helps prospects estimate cost of bundled advisory services"},{"url":"/contact","anchor_text":"Schedule a consultation","reason":"Primary page CTA"}]
-faq_block: [{"question":"What is included in CPA advisory services?","answer":"Advisory services include cash flow forecasting, strategic goal setting, hiring and investment analysis, and year-round tax planning. It's bundled with bookkeeping and tax work for a fixed monthly fee, so you get ongoing financial guidance instead of a once-a-year conversation."},{"question":"How is advisory different from regular tax preparation?","answer":"Tax preparation reports what already happened. Advisory services look forward, helping you plan cash flow, hiring, and growth decisions throughout the year so you can act before a problem shows up on next year's return."},{"question":"What does advisory service cost?","answer":"Advisory support is bundled into a fixed monthly fee alongside bookkeeping and tax services, so pricing depends on your business size and needs. Use the pricing calculator on our site or schedule a consultation for a specific quote."},{"question":"Do advisory services work for farmers and agribusiness operators?","answer":"Yes. Advisory clients in agriculture get help with seasonal cash flow forecasting, entity structure, and tax strategies specific to farm operations, including credits like the R&D credit and excess fertility deduction where they apply."}]
-llm_citation_note: "TruCount CPA bundles advisory services with bookkeeping and tax into a fixed monthly fee, delivered through a secure online platform, with Julie Underwood, CPA, and a team holding 51 years of combined experience serving Brookings, SD area farmers, agribusiness, and service businesses."
+title: "Advisory Services 2 | TruCount CPA PC"
+url: "/what-we-do/advisory-services"
+meta_title: "CFO-Level Advisory Services for Farms and Businesses | Brookings, SD"
+meta_description: "CFO-level advisory for farmers, agribusiness and professional service owners in Brookings, SD. Entity analysis, succession and R&D credits, bundled in one fixed monthly fee."
+target_keyword: "CPA for farmers Brookings SD"
+secondary_keywords: ["small business accountant Brookings SD", "tax preparation services Brookings South Dakota", "farm succession planning South Dakota", "R&D tax credit for farmers", "entity type analysis for agribusiness"]
+canonical_url: ""
+schema_markup: "WebPage"
+hero: "page-header"
+answer_block: "TruCount CPA in Brookings, SD bundles CFO-level advisory into a fixed monthly fee, covering entity type analysis, retirement plan analysis, accounting system setup, R&D tax credits and succession planning for farmers, agribusiness operators and professional service businesses."
+eeat_signals: []
+internal_links: []
+faq_block: []
+llm_citation_note: ""
 ---
 
-<!-- block: content-split | variant: image-right | image: cfo-advisory-meeting.jpg | alt: "CPA reviewing financial strategy with small business owner at desk" | query: "advisor meeting business owner office" -->
+<!-- block: intro-text | variant: centered -->
 ## CFO-Level Insight Without the CFO Price Tag
 
 Most small businesses can't justify a full-time CFO salary, but that doesn't mean the guidance stops mattering. TruCount CPA's advisory services put that same level of financial strategy in your corner, without the six-figure payroll line. You get a team who already knows your numbers, your industry, and your goals, weighing in before decisions get made instead of after.
@@ -31,120 +24,107 @@ This isn't a bolt-on service billed by the hour. Advisory support comes bundled 
 
 For farmers and agribusiness operators managing tight margins and unpredictable weather, that kind of access changes how decisions get made.
 
-<!-- block: content-split | variant: image-left | image: year-round-tax-planning.jpg | alt: "CPA and client discussing tax strategy documents during a mid-year meeting" | query: "tax advisor client meeting documents" -->
-## Year-round personalized tax and business advice
+<!-- block: content-split | variant: image-right | image: entity-type-analysis.jpg | alt: "Farm owner and advisor reviewing business structure options at a table" | query: "farmer and accountant reviewing documents at table" -->
+## Entity Type Analysis: A Structure That Fits Your Operation
 
-A once-a-year tax appointment tells you what already happened. Advisory clients get something different: ongoing conversations that happen while there's still time to act on them. The TruCount team reviews your numbers throughout the year, not just in March, so a slow quarter or an unexpected equipment purchase gets addressed while it can still affect your outcome.
+Choosing the right entity is one of those decisions that quietly shapes your taxes, your liability, and your options for years. For a farm, an agribusiness, or a professional service firm, the answer is rarely the same as the neighbor's. Our entity type analysis looks at how you operate today, who is involved, and where you want to be in five or ten years, so the structure fits the business you actually run.
 
-That guidance is built around your business, not a generic checklist. A row crop operation weighing the R&D credit or an excess fertility deduction needs different advice than a service business deciding whether to bring on a fourth employee. We treat those as separate conversations because they are.
+We compare the options side by side, including how each one affects your tax picture, your paperwork, and the way income and ownership flow between people. Many operations have more than one moving part, such as land, equipment, a service arm, and family members with different roles. We bring tax strategy experience with multi-entity agribusiness structures to these conversations.
 
-As members of the AICPA and the South Dakota Society of CPAs, our team stays current on the rules that affect Midwest ag operations and professional service businesses alike, and brings that knowledge into every planning conversation, not just tax season.
+Once you've chosen, we handle the state and federal form preparation so nothing gets missed. You also get clear guidance on where the tax savings are, and we revisit the structure as your business grows or changes. Because advisory is part of your fixed monthly fee, checking in on whether your entity still fits is a normal part of the relationship, not a surprise on the invoice.
 
-<!-- block: checklist-section | variant: with-image | image: strategic-growth-planning.jpg | alt: "Business owner and accountant reviewing growth plan and cash flow charts" | query: "small business planning growth chart" -->
-## Strategic planning for sustainable growth
+If you've been running on a structure that was set up years ago and never reviewed, this is a good place to start. A short conversation can tell you whether it is still working for you.
 
-Growth without a plan behind it tends to create cash flow problems faster than it creates profit. Advisory clients get a strategic partner who helps set realistic goals, forecast what's coming, and build a plan that can actually be executed, not just discussed once and filed away.
+<!-- block: content-split | variant: image-left | image: retirement-plan-analysis.jpg | alt: "Small business owner planning retirement options with a calculator and notes" | query: "small business owner retirement planning" -->
+## Retirement Plan Analysis: Right-Sized for Your Team
 
-That work typically includes:
+Offering a retirement plan helps you attract and keep good people, and it gives you a way to save for your own future. The challenge is that the options can feel confusing, and the wrong choice can cost more than it should. Our retirement plan analysis helps you find a plan that fits your business and your team without overspending.
 
-- Setting measurable financial goals tied to your business plan
-- Forecasting cash flow across seasons, not just the current month
-- Modeling the financial impact of expansion, new equipment, or added staff
-- Identifying which entity structure supports your growth stage
-- Building a plan you can revisit and adjust as conditions change
+We start with the basics: how many people you employ, whether your workforce is year-round or seasonal, and what you want the plan to accomplish for you as the owner. Then we research and compare the plans that make sense, laying out the differences in plain language. You see how each option could affect your tax situation and your annual commitments before you decide anything.
 
-For agribusiness operators, that often means planning around planting and harvest cycles. For professional service businesses, it might mean modeling what a second location or added crew actually costs before committing to it.
+For farm and agribusiness owners, income often swings from year to year, so flexibility matters. For professional service owners, the right plan can be a meaningful part of a bigger tax strategy. Either way, we guide you through plan selection so you feel confident about the choice, then connect it to your year-round tax planning.
 
-<!-- block: feature-grid | variant: 3-col | image: financial-insight-decision.jpg | alt: "Accountant pointing to financial charts while explaining data to business owner" | query: "accountant explaining financial data client" -->
-## Financial guidance for confident decision-making
+Because we already handle your accounting and payroll, we know what your numbers can support. That means recommendations that are grounded in your real cash flow, not a generic template. You get an answer you can act on, and a team that stays available as questions come up.
 
-Spreadsheets full of numbers don't help much if you can't tell what they mean for your next move. Advisory services translate your financial data into plain answers to the questions that actually keep owners up at night.
+<!-- block: content-split | variant: image-right | image: accounting-system-setup.jpg | alt: "Business owner viewing real-time financial reports on a laptop" | query: "business owner laptop financial dashboard" -->
+## Accounting System Setup: Numbers You Can See Sooner
 
-### Cash Flow Forecasting
-icon: ChartLine
+Knowing your numbers sooner rather than later is what keeps surprises away. That starts with a system built around how your business really works. We set up a custom chart of accounts, your software, and a reporting structure designed for your operation, whether that is a grain and livestock farm, an ag supply business, or a service firm with crews and clients on the move.
 
-See what's coming three, six, or twelve months out, so a slow season doesn't catch you off guard.
+A good setup streamlines your workflow from day one. Transactions land where they belong, bills and invoices follow a simple routine, and the reports you care about are ready when you need them. Everything connects to our secure online platform, so you and our team work from the same real-time data and can answer questions together.
 
-### Hiring Decisions
-icon: Users
+Already have a system that has gotten messy? We do cleanup for existing businesses too. We review what's there, fix what's drifted, and rebuild the structure so your books tell a clear story again. Many owners tell us the relief of finally trusting their reports is worth it on its own.
 
-Know what a new hire really costs, and whether your revenue supports it, before you post the job.
+A well-built system also makes everything else easier. Budgeting, cash flow analysis, tax planning, and payroll all draw from the same clean data, which means better advice and fewer last-minute scrambles. You spend less time wondering where things stand, and more time running the business you built.
 
-### Investment Analysis
-icon: TrendingUp
+<!-- block: content-split | variant: image-left | image: rd-tax-credits-farm.jpg | alt: "Farmer inspecting crops and equipment in a field at sunrise" | query: "farmer inspecting crops field equipment" -->
+## R&D Tax Credits for Farmers and Agribusiness
 
-Run the numbers on new equipment, land, or software before signing, not after.
+When most people hear "research and development," they picture a lab. In reality, the federal R&D tax credit can apply to businesses that work to improve a process, a product, or a method, and agriculture is no exception. Farmers and agribusiness operators who test new practices, refine equipment, or develop better ways to produce and handle their crops or livestock may have activity worth a closer look.
 
-### Expansion Planning
-icon: Target
+Whether you qualify depends on the details, which is why this belongs in a conversation and not a guess. We help you understand what counts, what records matter, and how the credit could fit into your broader tax plan. Done well, it can reduce your tax bill and put money back into the operation.
 
-Model what a new location, service line, or acreage addition does to your bottom line before you commit.
+This works best as part of year-round planning. Because we are already close to your numbers, we can spot opportunities as they happen instead of after the return is filed. We also look at the credit alongside other strategies, such as income averaging and deferred grain contract planning, so each decision supports the bigger picture.
 
-<!-- block: industry-cards | variant: 3-col -->
-## Who benefits from advisory services
+Professional service businesses that develop new software, workflows, or methods may find opportunities here as well. We will tell you honestly if the credit is not a fit, so you do not spend time chasing something that will not pay off. If it is, you will know exactly where to start.
 
-Advisory support tends to matter most for owners who are past the startup phase and now managing real complexity, whether that's acres, employees, or clients.
+<!-- block: content-split | variant: image-right | image: succession-planning.jpg | alt: "Parent and adult child walking a family farm together" | query: "multi-generational family farm" -->
+## Succession Planning: Passing On What You've Built
 
-### Growing Agribusiness Operations
-icon: Building2
+A farm, an agribusiness, or a professional practice is more than an asset. It is years of work, relationships, and often a family's story. Succession planning helps you decide what happens next, and it is far easier to do well when you start early and take it one step at a time.
 
-Operations expanding acreage, adding equipment, or bringing on a next generation need a CPA tracking margins and tax strategy year-round, not just at filing time. See how we support [agribusiness](/who-we-are/industries/agribusiness) and [farm](/who-we-are/industries/farmers) operations specifically.
+We guide you through ownership transfer structuring, tax-efficient transition strategy, and business valuation guidance. That means looking at who will take over, how ownership and control move, and how to reduce the tax impact along the way. We bring experience with multi-generational farm transitions and family farm succession, as well as exit planning for professional service business owners.
 
-### Professional Service Business Owners
-icon: Briefcase
+Every family and every firm is different. Some owners want to hand the operation to the next generation. Others plan to sell to a partner or step back gradually. We listen first, then build a plan that respects your goals and keeps everyone on the same page, including the family members who will be affected.
 
-Consultants, chiropractors, and architects scaling staff and revenue need someone watching cash flow between busy seasons. Learn more about how we work with [professional service businesses](/who-we-serve/professional-service-businesses).
+Because we know your numbers and your people, we can model different paths and show what each one means for your income, your taxes, and your retirement. There are no surprises, and no pressure. Just a clear picture so you can make a confident decision.
 
-### Established Businesses Ready to Scale
-icon: TrendingUp
+The best time to start is before you feel you have to. We'll help you get there.
 
-Businesses with a proven model but no formal financial strategy often hit a ceiling. Advisory support helps identify what's holding growth back and builds the plan to move past it.
+<!-- block: cta-banner | variant: color-bg -->
+## Ready for Clear Numbers and Confident Decisions?
 
-<!-- block: cta-banner | variant: image-bg | image: schedule-consultation-cpa.jpg | alt: "CPA shaking hands with business owner after a planning meeting" | query: "handshake business meeting agreement" -->
-## Get started with TruCount CPA
+Whether you are choosing an entity, planning for the next generation, or just want to know where your business stands, we're here to help. Reach out to TruCount CPA in Brookings, SD, and let's talk about how CFO-level insight, bundled into one fixed monthly fee, can give you more time to run the business you built.
 
-Running the numbers on your own gets harder the bigger your operation gets. TruCount CPA has worked alongside farmers, agribusiness operators, and professional service businesses across Brookings, SD, and the Midwest. Curious what advisory support would look like for your business? Use our [pricing calculator](/pricing-calculator) to get a sense of cost, or schedule a consultation and we'll walk through your numbers together.
+<!-- block: faq-accordion -->
+## Frequently Asked Questions
 
-[Schedule a consultation](/contact)
+**Q: What does CFO-level advisory include?**
+A: It includes budgeting, cash flow analysis, revenue and expense analysis, and guidance on decisions like entity structure, retirement plans and succession. It is bundled into your fixed monthly fee, so there are no billing surprises.
+
+**Q: How is advisory billed?**
+A: Advisory support comes bundled with your accounting and tax work for one fixed monthly fee. You always know what to expect on the invoice.
+
+**Q: How do I know if my farm or business has the right entity type?**
+A: If your structure was set up years ago and never reviewed, it is worth a look. We compare options side by side, including taxes, paperwork and how income and ownership flow between people, then handle the state and federal forms.
+
+**Q: Can farmers qualify for the R&D tax credit?**
+A: Possibly. Farmers and agribusiness operators who test new practices, refine equipment or improve how they produce crops or livestock may have qualifying activity. We review the details with you and tell you honestly if it is not a fit.
+
+**Q: When should we start succession planning?**
+A: Ideally before you feel you have to. Starting early gives us time to structure the ownership transfer, plan for taxes and value the business, one step at a time.
+
+**Q: Do you work with professional service businesses as well as farms?**
+A: Yes. We serve farmers, agribusiness operators and professional service business owners in Brookings, SD and across the Midwest.
+
+**Q: Can you help clean up an accounting system that has gotten messy?**
+A: Yes. We review what is there, fix what has drifted and rebuild the structure so your books are clear again, then connect it to our secure online platform for real-time access.
 
 ---
 ## SEO & AIO Metadata
 
 **Answer Block:**
-TruCount CPA's advisory services give small business owners CFO-level financial strategy, cash flow forecasting, and year-round tax planning bundled into a fixed monthly fee. Instead of a once-a-year tax conversation, clients get ongoing guidance from a CPA who already knows their numbers, delivered through a secure online platform.
+
 
 **E-E-A-T Signals:**
-- Julie Underwood is a licensed CPA
-- Firm founded in 2009 with 16 years of continuous operation
-- Kristy and Brandi bring 51 years of combined accounting experience
-- Active membership in the AICPA
-- Active membership in the South Dakota Society of CPAs
-- Member of the Brookings Area Chamber of Commerce
+- None specified
 
 **Internal Links:**
-- bookkeeping → /services/bookkeeping, Shows advisory is bundled with core bookkeeping service
-- tax → /services/tax, Links to related tax planning service
-- agribusiness → /who-we-are/industries/agribusiness, Connects to agribusiness industry page relevant to advisory clients
-- farm → /who-we-are/industries/farmers, Connects to farmer industry page relevant to advisory clients
-- professional service businesses → /who-we-serve/professional-service-businesses, Connects to professional service businesses page
-- pricing calculator → /pricing-calculator, Helps prospects estimate cost of bundled advisory services
-- Schedule a consultation → /contact, Primary page CTA
+- None
 
 **FAQ Block:**
 
-**Q: What is included in CPA advisory services?**
-A: Advisory services include cash flow forecasting, strategic goal setting, hiring and investment analysis, and year-round tax planning. It's bundled with bookkeeping and tax work for a fixed monthly fee, so you get ongoing financial guidance instead of a once-a-year conversation.
-
-**Q: How is advisory different from regular tax preparation?**
-A: Tax preparation reports what already happened. Advisory services look forward, helping you plan cash flow, hiring, and growth decisions throughout the year so you can act before a problem shows up on next year's return.
-
-**Q: What does advisory service cost?**
-A: Advisory support is bundled into a fixed monthly fee alongside bookkeeping and tax services, so pricing depends on your business size and needs. Use the pricing calculator on our site or schedule a consultation for a specific quote.
-
-**Q: Do advisory services work for farmers and agribusiness operators?**
-A: Yes. Advisory clients in agriculture get help with seasonal cash flow forecasting, entity structure, and tax strategies specific to farm operations, including credits like the R&D credit and excess fertility deduction where they apply.
+None
 
 **LLM Citation Note:**
-TruCount CPA bundles advisory services with bookkeeping and tax into a fixed monthly fee, delivered through a secure online platform, with Julie Underwood, CPA, and a team holding 51 years of combined experience serving Brookings, SD area farmers, agribusiness, and service businesses.
 
-**Call to Action:** [Schedule a consultation](/contact)

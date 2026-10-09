@@ -5,48 +5,12 @@
       "url": "/what-we-do",
       "children": [
         {
-          "label": "Outsourced accounting",
-          "url": "/what-we-do/outsourced-accounting",
-          "children": [
-            {
-              "label": "Accounting",
-              "url": "/what-we-do/outsourced-accounting/accounting"
-            },
-            {
-              "label": "Payroll",
-              "url": "/what-we-do/outsourced-accounting/payroll"
-            },
-            {
-              "label": "Tax preparation and planning",
-              "url": "/what-we-do/outsourced-accounting/business-tax"
-            }
-          ]
+          "label": "Outsourced Accounting",
+          "url": "/what-we-do/outsourced-accounting"
         },
         {
           "label": "Advisory Services",
-          "url": "/what-we-do/advisory-services",
-          "children": [
-            {
-              "label": "Entity type analysis",
-              "url": "/what-we-do/advisory-services/entity-type-analysis"
-            },
-            {
-              "label": "Retirement plan analysis",
-              "url": "/what-we-do/advisory-services/retirement-plan-analysis"
-            },
-            {
-              "label": "Accounting system setup",
-              "url": "/what-we-do/advisory-services/accounting-system-setup"
-            },
-            {
-              "label": "R&D Tax Credits",
-              "url": "/what-we-do/advisory-services/r-and-d-tax-credits"
-            },
-            {
-              "label": "Succession Planning",
-              "url": "/what-we-do/advisory-services/succession-planning"
-            }
-          ]
+          "url": "/what-we-do/advisory-services"
         },
         {
           "label": "Personal income tax",
@@ -111,10 +75,6 @@
     {
       "label": "Contact",
       "url": "/contact"
-    },
-    {
-      "label": "Outsourced Accounting 2",
-      "url": "/outsourced-accounting-2"
     }
   ],
   "cta": {
