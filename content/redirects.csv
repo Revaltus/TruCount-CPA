@@ -39,8 +39,8 @@ old_url,new_url,status_code,reason
 /resources/resources-library/forms-documents-and-links,/resources/forms-documents-and-links,301,Nested via nav editor
 /resources/resources-library/refund-tracker,/resources/refund-tracker,301,Nested via nav editor
 /resources/resources-library/video-library,/resources/video-library,301,Nested via nav editor
-/outsourced-accounting-2,/what-we-do/outsourced-accounting-2,301,Nested via nav editor
+/outsourced-accounting-2,/what-we-do/outsourced-accounting,301,Nested via nav editor
 /what-we-do/outsourced-accounting/accounting,/outsourced-accounting-old/accounting,301,Relocated via AI
 /what-we-do/outsourced-accounting/payroll,/outsourced-accounting-old/payroll,301,Relocated via AI
 /what-we-do/outsourced-accounting/business-tax,/outsourced-accounting-old/business-tax,301,Relocated via AI
-/what-we-do/outsourced-accounting,/outsourced-accounting-old,301,Relocated via AI
+/what-we-do/outsourced-accounting-2,/what-we-do/outsourced-accounting,301,Relocated via AI
