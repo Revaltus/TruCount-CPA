@@ -5,24 +5,6 @@
       "url": "/what-we-do",
       "children": [
         {
-          "label": "Outsourced accounting",
-          "url": "/what-we-do/outsourced-accounting",
-          "children": [
-            {
-              "label": "Accounting",
-              "url": "/what-we-do/outsourced-accounting/accounting"
-            },
-            {
-              "label": "Payroll",
-              "url": "/what-we-do/outsourced-accounting/payroll"
-            },
-            {
-              "label": "Tax preparation and planning",
-              "url": "/what-we-do/outsourced-accounting/business-tax"
-            }
-          ]
-        },
-        {
           "label": "Advisory Services",
           "url": "/what-we-do/advisory-services",
           "children": [
