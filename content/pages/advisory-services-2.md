@@ -1,14 +1,14 @@
 ---
 title: "Advisory Services 2 | TruCount CPA PC"
 url: "/advisory-services-2"
-meta_title: "Advisory Services 2"
-meta_description: ""
-target_keyword: ""
-secondary_keywords: []
+meta_title: "CFO-Level Advisory Services for Farms and Businesses | Brookings, SD"
+meta_description: "CFO-level advisory for farmers, agribusiness and professional service owners in Brookings, SD. Entity analysis, succession and R&D credits, bundled in one fixed monthly fee."
+target_keyword: "CPA for farmers Brookings SD"
+secondary_keywords: ["small business accountant Brookings SD", "tax preparation services Brookings South Dakota", "farm succession planning South Dakota", "R&D tax credit for farmers", "entity type analysis for agribusiness"]
 canonical_url: ""
 schema_markup: "WebPage"
 hero: "page-header"
-answer_block: ""
+answer_block: "TruCount CPA in Brookings, SD bundles CFO-level advisory into a fixed monthly fee, covering entity type analysis, retirement plan analysis, accounting system setup, R&D tax credits and succession planning for farmers, agribusiness operators and professional service businesses."
 eeat_signals: []
 internal_links: []
 faq_block: []
@@ -24,18 +24,18 @@ This isn't a bolt-on service billed by the hour. Advisory support comes bundled 
 
 For farmers and agribusiness operators managing tight margins and unpredictable weather, that kind of access changes how decisions get made.
 
-<!-- block: content-split | variant: image-right -->
+<!-- block: content-split | variant: image-right | image: entity-type-analysis.jpg | alt: "Farm owner and advisor reviewing business structure options at a table" | query: "farmer and accountant reviewing documents at table" -->
 ## Entity Type Analysis: A Structure That Fits Your Operation
 
 Choosing the right entity is one of those decisions that quietly shapes your taxes, your liability, and your options for years. For a farm, an agribusiness, or a professional service firm, the answer is rarely the same as the neighbor's. Our entity type analysis looks at how you operate today, who is involved, and where you want to be in five or ten years, so the structure fits the business you actually run.
 
-We compare the options side by side, including how each one affects your tax picture, your paperwork, and the way income and ownership flow between people. Many operations have more than one moving part, such as land, equipment, a service arm, and family members with different roles. Julie Underwood, CPA, brings tax strategy experience with multi-entity agribusiness structures to these conversations.
+We compare the options side by side, including how each one affects your tax picture, your paperwork, and the way income and ownership flow between people. Many operations have more than one moving part, such as land, equipment, a service arm, and family members with different roles. We bring tax strategy experience with multi-entity agribusiness structures to these conversations.
 
 Once you've chosen, we handle the state and federal form preparation so nothing gets missed. You also get clear guidance on where the tax savings are, and we revisit the structure as your business grows or changes. Because advisory is part of your fixed monthly fee, checking in on whether your entity still fits is a normal part of the relationship, not a surprise on the invoice.
 
 If you've been running on a structure that was set up years ago and never reviewed, this is a good place to start. A short conversation can tell you whether it is still working for you.
 
-<!-- block: content-split | variant: image-left -->
+<!-- block: content-split | variant: image-left | image: retirement-plan-analysis.jpg | alt: "Small business owner planning retirement options with a calculator and notes" | query: "small business owner retirement planning" -->
 ## Retirement Plan Analysis: Right-Sized for Your Team
 
 Offering a retirement plan helps you attract and keep good people, and it gives you a way to save for your own future. The challenge is that the options can feel confusing, and the wrong choice can cost more than it should. Our retirement plan analysis helps you find a plan that fits your business and your team without overspending.
@@ -46,7 +46,7 @@ For farm and agribusiness owners, income often swings from year to year, so flex
 
 Because we already handle your accounting and payroll, we know what your numbers can support. That means recommendations that are grounded in your real cash flow, not a generic template. You get an answer you can act on, and a team that stays available as questions come up.
 
-<!-- block: content-split | variant: image-right -->
+<!-- block: content-split | variant: image-right | image: accounting-system-setup.jpg | alt: "Business owner viewing real-time financial reports on a laptop" | query: "business owner laptop financial dashboard" -->
 ## Accounting System Setup: Numbers You Can See Sooner
 
 Knowing your numbers sooner rather than later is what keeps surprises away. That starts with a system built around how your business really works. We set up a custom chart of accounts, your software, and a reporting structure designed for your operation, whether that is a grain and livestock farm, an ag supply business, or a service firm with crews and clients on the move.
@@ -57,7 +57,7 @@ Already have a system that has gotten messy? We do cleanup for existing business
 
 A well-built system also makes everything else easier. Budgeting, cash flow analysis, tax planning, and payroll all draw from the same clean data, which means better advice and fewer last-minute scrambles. You spend less time wondering where things stand, and more time running the business you built.
 
-<!-- block: content-split | variant: image-left -->
+<!-- block: content-split | variant: image-left | image: rd-tax-credits-farm.jpg | alt: "Farmer inspecting crops and equipment in a field at sunrise" | query: "farmer inspecting crops field equipment" -->
 ## R&D Tax Credits for Farmers and Agribusiness
 
 When most people hear "research and development," they picture a lab. In reality, the federal R&D tax credit can apply to businesses that work to improve a process, a product, or a method, and agriculture is no exception. Farmers and agribusiness operators who test new practices, refine equipment, or develop better ways to produce and handle their crops or livestock may have activity worth a closer look.
@@ -68,12 +68,12 @@ This works best as part of year-round planning. Because we are already close to 
 
 Professional service businesses that develop new software, workflows, or methods may find opportunities here as well. We will tell you honestly if the credit is not a fit, so you do not spend time chasing something that will not pay off. If it is, you will know exactly where to start.
 
-<!-- block: content-split | variant: image-right -->
+<!-- block: content-split | variant: image-right | image: succession-planning.jpg | alt: "Parent and adult child walking a family farm together" | query: "multi-generational family farm" -->
 ## Succession Planning: Passing On What You've Built
 
 A farm, an agribusiness, or a professional practice is more than an asset. It is years of work, relationships, and often a family's story. Succession planning helps you decide what happens next, and it is far easier to do well when you start early and take it one step at a time.
 
-We guide you through ownership transfer structuring, tax-efficient transition strategy, and business valuation guidance. That means looking at who will take over, how ownership and control move, and how to reduce the tax impact along the way. Brandi Altstaetter brings experience with multi-generational farm transitions and family farm succession, and Julie Underwood, CPA, speaks to exit planning for professional service business owners.
+We guide you through ownership transfer structuring, tax-efficient transition strategy, and business valuation guidance. That means looking at who will take over, how ownership and control move, and how to reduce the tax impact along the way. We bring experience with multi-generational farm transitions and family farm succession, as well as exit planning for professional service business owners.
 
 Every family and every firm is different. Some owners want to hand the operation to the next generation. Others plan to sell to a partner or step back gradually. We listen first, then build a plan that respects your goals and keeps everyone on the same page, including the family members who will be affected.
 
