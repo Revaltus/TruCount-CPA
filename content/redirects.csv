@@ -24,7 +24,7 @@ old_url,new_url,status_code,reason
 /services/advisory-services/succession-planning,/what-we-do/advisory-services-old/succession-planning,301,Relocated via AI
 /services/personal-income-tax,/what-we-do/personal-income-tax,301,Relocated via AI
 /services/outsourced-accounting,/outsourced-accounting-old,301,Relocated via AI
-/services/advisory-services,/what-we-do/advisory-services,301,Relocated via AI
+/services/advisory-services,/what-we-do/advisory-services-old,301,Relocated via AI
 /services,/what-we-do,301,Relocated via AI
 /who-we-are/industries/farmers,/who-we-serve/farmers,301,Relocated via AI
 /who-we-are/industries/professional-service-businesses,/who-we-serve/professional-service-businesses,301,Relocated via AI
@@ -49,3 +49,4 @@ old_url,new_url,status_code,reason
 /what-we-do/advisory-services/accounting-system-setup,/what-we-do/advisory-services-old/accounting-system-setup,301,Relocated via AI
 /what-we-do/advisory-services/r-and-d-tax-credits,/what-we-do/advisory-services-old/r-and-d-tax-credits,301,Relocated via AI
 /what-we-do/advisory-services/succession-planning,/what-we-do/advisory-services-old/succession-planning,301,Relocated via AI
+/what-we-do/advisory-services,/what-we-do/advisory-services-old,301,Relocated via AI
