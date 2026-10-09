@@ -15,7 +15,7 @@ old_url,new_url,status_code,reason
 /who-we-are/industries/service-based-businesses,/who-we-are/industries/professional-service-businesses,301,Relocated via AI
 /industries/service-based-businesses/exit-planning,/industries/professional-service-businesses/exit-planning,301,Relocated via AI
 /services/outsourced-accounting/bookkeeping,/what-we-do/outsourced-accounting/bookkeeping,301,Relocated via AI
-/services/outsourced-accounting/payroll,/what-we-do/outsourced-accounting/payroll,301,Relocated via AI
+/services/outsourced-accounting/payroll,/outsourced-accounting-old/payroll,301,Relocated via AI
 /services/outsourced-accounting/tax,/what-we-do/outsourced-accounting/tax,301,Relocated via AI
 /services/advisory-services/entity-type-analysis,/what-we-do/advisory-services/entity-type-analysis,301,Relocated via AI
 /services/advisory-services/retirement-plan-analysis,/what-we-do/advisory-services/retirement-plan-analysis,301,Relocated via AI
@@ -41,3 +41,4 @@ old_url,new_url,status_code,reason
 /resources/resources-library/video-library,/resources/video-library,301,Nested via nav editor
 /outsourced-accounting-2,/what-we-do/outsourced-accounting-2,301,Nested via nav editor
 /what-we-do/outsourced-accounting/accounting,/outsourced-accounting-old/accounting,301,Relocated via AI
+/what-we-do/outsourced-accounting/payroll,/outsourced-accounting-old/payroll,301,Relocated via AI
