@@ -34,9 +34,10 @@ old_url,new_url,status_code,reason
 /who-we-are/industries,/who-we-serve,301,Relocated via AI
 /careers,/resources/resources-library/forms-documents-and-links/careers,301,Nested via nav editor
 /resources/resources-library/forms-documents-and-links/careers,/who-we-are/careers,301,Nested via nav editor
-/what-we-do/outsourced-accounting/bookkeeping,/what-we-do/outsourced-accounting/accounting,301,Relocated via AI
+/what-we-do/outsourced-accounting/bookkeeping,/outsourced-accounting-old/accounting,301,Relocated via AI
 /resources/resources-library/careers,/who-we-are/careers,301,Nested via nav editor
 /resources/resources-library/forms-documents-and-links,/resources/forms-documents-and-links,301,Nested via nav editor
 /resources/resources-library/refund-tracker,/resources/refund-tracker,301,Nested via nav editor
 /resources/resources-library/video-library,/resources/video-library,301,Nested via nav editor
 /outsourced-accounting-2,/what-we-do/outsourced-accounting-2,301,Nested via nav editor
+/what-we-do/outsourced-accounting/accounting,/outsourced-accounting-old/accounting,301,Relocated via AI
