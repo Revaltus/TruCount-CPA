@@ -5,32 +5,6 @@
       "url": "/what-we-do",
       "children": [
         {
-          "label": "Advisory Services",
-          "url": "/what-we-do/advisory-services",
-          "children": [
-            {
-              "label": "Entity type analysis",
-              "url": "/what-we-do/advisory-services/entity-type-analysis"
-            },
-            {
-              "label": "Retirement plan analysis",
-              "url": "/what-we-do/advisory-services/retirement-plan-analysis"
-            },
-            {
-              "label": "Accounting system setup",
-              "url": "/what-we-do/advisory-services/accounting-system-setup"
-            },
-            {
-              "label": "R&D Tax Credits",
-              "url": "/what-we-do/advisory-services/r-and-d-tax-credits"
-            },
-            {
-              "label": "Succession Planning",
-              "url": "/what-we-do/advisory-services/succession-planning"
-            }
-          ]
-        },
-        {
           "label": "Personal income tax",
           "url": "/what-we-do/personal-income-tax"
         },
