@@ -40,8 +40,6 @@ Know your farm's cash position before planting, or your firm's before the next b
 
 A secure online platform gives you real-time collaboration and data access, whether you are in the cab of a combine or between client meetings. You also get CFO-level advisory insight at a fraction of the cost of a full-time finance leader, all bundled into one fixed monthly fee with no billing surprises.
 
-TruCount CPA PC has served clients since 2009, with 51 years of collective accounting experience. Kristy and Brandi have been with the firm for 13 years, so we know your family, your operation, and your goals.
-
 Looking for a small business accountant in Brookings, SD who will own the full picture? Reach out and we will show you how outsourced accounting gives you clear numbers and more time back.
 
 <!-- block: content-prose -->
