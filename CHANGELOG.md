@@ -2,6 +2,29 @@
 
 All notable changes to this template are recorded here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project loosely follows semver — though as a per-client template, "release" means "checkpoint on `main`" rather than a published package version.
 
+## [2026.09.14] — FAQ answers readable by search engines and AI
+
+**No visible change:** FAQ answers still open and close the same way.
+
+### Fixed
+- FAQ answers are now in the page HTML while collapsed. Before, the accordion
+  only rendered an answer once it was opened, so crawlers saw the answers only
+  through the FAQPage JSON-LD. The FAQ force-mounts its content and hides it
+  with CSS while closed (Radix renders force-mounted content open). Other
+  accordions are unchanged.
+
+### Rollout notes (template 2026.09.13 → 2026.09.14)
+Ship in ONE commit, `c5-template.json` last.
+- **Overwrite (M):** `CHANGELOG.md`, `src/components/ui/accordion.tsx`,
+  `src/components/blocks/FaqAccordionClient.tsx`,
+  `src/lib/theme/template-marker.test.ts`.
+- **Add (A):** `src/components/blocks/faq-accordion-crawlable.test.ts`.
+- **Delete (D):** none.
+- **Write last:** `c5-template.json` = `{"templateVersion": "2026.09.14",
+  "capabilities": ["fonts", "style-axes", "specimen", "layout-presets"],
+  "syncedFrom": "<the template main SHA being rolled out>"}`.
+- theme.css is not rewritten; no package.json change.
+
 ## [2026.09.13] — Lint clean-up
 
 Code-hygiene release: **no visible or behavioural change**.

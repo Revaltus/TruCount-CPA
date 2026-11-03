@@ -12,6 +12,8 @@ import {
  * Interactive shell for the FAQ block. The server-side `FaqAccordion` wrapper
  * pre-renders each answer's markdown into `answer` (a ReactNode) so this
  * component does not ship react-markdown / remark-gfm in its bundle.
+ * Answers stay in the HTML while collapsed (forceMount) so search engines and
+ * AI crawlers read the FAQ, which carries each page's depth.
  */
 type FaqAccordionItem = { question: string; answer: ReactNode }
 
@@ -23,7 +25,7 @@ export function FaqAccordionClient({ items }: { items: FaqAccordionItem[] }) {
           <AccordionTrigger className="text-left font-heading text-base md:text-lg m-0">
             {item.question}
           </AccordionTrigger>
-          <AccordionContent className="text-foreground/80 leading-relaxed">
+          <AccordionContent forceMount className="text-foreground/80 leading-relaxed">
             {item.answer}
           </AccordionContent>
         </AccordionItem>
