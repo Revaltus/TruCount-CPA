@@ -15,8 +15,11 @@ import {
 } from '@/components/ui/select'
 import { cn } from '@/lib/utils'
 import { CONTENT_TYPE_META } from '@/lib/content/content-type-meta'
+import { categoryPath } from '@/lib/content/category-path'
+import type { BlogCategory } from '@/lib/content/categories'
 import {
   collectTags,
+  DEFAULT_POST_FILTERS,
   filterPosts,
   presentContentTypes,
   type BrowsablePost,
@@ -44,7 +47,19 @@ function chipClass(active: boolean): string {
   )
 }
 
-export function ResourceBrowser({ posts, basePath }: { posts: BrowsablePost[]; basePath: string }) {
+export function ResourceBrowser({
+  posts,
+  basePath,
+  categories = [],
+  activeCategory = null,
+}: {
+  posts: BrowsablePost[]
+  basePath: string
+  /** Categories with at least one post (rendered as links to their pages). */
+  categories?: BlogCategory[]
+  /** On a category page: that category's slug. The list is scoped to it. */
+  activeCategory?: string | null
+}) {
   const [search, setSearch] = useState('')
   const [contentType, setContentType] = useState<PostFilters['contentType']>('all')
   const [tag, setTag] = useState<string | null>(null)
@@ -54,11 +69,17 @@ export function ResourceBrowser({ posts, basePath }: { posts: BrowsablePost[]; b
   // filter recomputes — the debounce the design calls for, without a timer.
   const deferredSearch = useDeferredValue(search)
 
-  const types = useMemo(() => presentContentTypes(posts), [posts])
-  const tags = useMemo(() => collectTags(posts), [posts])
+  // On a category page, every other filter works within that category, so the
+  // type chips and tag list come from its posts only.
+  const scoped = useMemo(
+    () => (activeCategory ? filterPosts(posts, { ...DEFAULT_POST_FILTERS, category: activeCategory }, categories) : posts),
+    [posts, activeCategory, categories],
+  )
+  const types = useMemo(() => presentContentTypes(scoped), [scoped])
+  const tags = useMemo(() => collectTags(scoped), [scoped])
   const visible = useMemo(
-    () => filterPosts(posts, { search: deferredSearch, contentType, tag, sort }),
-    [posts, deferredSearch, contentType, tag, sort],
+    () => filterPosts(scoped, { search: deferredSearch, contentType, tag, category: null, sort }),
+    [scoped, deferredSearch, contentType, tag, sort],
   )
 
   // Always surface the content-type filter when there are posts — even an
@@ -126,6 +147,33 @@ export function ResourceBrowser({ posts, basePath }: { posts: BrowsablePost[]; b
           </div>
         </div>
       </div>
+
+      {categories.length > 0 && (
+        <nav aria-label="Categories" className="mt-5">
+          <ul className="flex flex-wrap gap-2">
+            <li>
+              <Link
+                href={basePath}
+                aria-current={activeCategory === null ? 'page' : undefined}
+                className={cn('inline-block', chipClass(activeCategory === null))}
+              >
+                All
+              </Link>
+            </li>
+            {categories.map((c) => (
+              <li key={c.id}>
+                <Link
+                  href={categoryPath(basePath, c.slug)}
+                  aria-current={activeCategory === c.slug ? 'page' : undefined}
+                  className={cn('inline-block', chipClass(activeCategory === c.slug))}
+                >
+                  {c.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
 
       {showTypeChips && (
         <div className="mt-5 flex flex-wrap gap-2">

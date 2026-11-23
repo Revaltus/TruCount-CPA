@@ -2,6 +2,10 @@ import { getBrandConfig } from '@/lib/brand/get-brand-config'
 import { getPageMarkdown, listPageSlugs } from '@/lib/content/get-page'
 import { listPostsMeta } from '@/lib/content/get-post'
 import { getBlogConfig } from '@/lib/content/get-blog-config'
+import { getCategories } from '@/lib/content/get-categories'
+import { presentCategories } from '@/lib/content/filter-posts'
+import { isReservedPostSlug } from '@/lib/content/blog-config'
+import { categoryPath } from '@/lib/content/category-path'
 import { parsePageMd } from '@/lib/assembly/parse-page-md'
 import { siteConfig } from '../../../site.config'
 
@@ -39,12 +43,15 @@ export async function GET(): Promise<Response> {
   const brand = await getBrandConfig()
   const baseUrl = siteConfig.siteUrl.replace(/\/$/, '')
 
-  const [home, slugs, posts, blog] = await Promise.all([
+  const [home, slugs, allPosts, blog, categories] = await Promise.all([
     pageEntry(baseUrl, '/'),
     listPageSlugs(),
     listPostsMeta(),
     getBlogConfig(),
+    getCategories(),
   ])
+  // A post slugged `category` is shadowed by the category route — never list it.
+  const posts = allPosts.filter((p) => !isReservedPostSlug(p.slug))
 
   const pageEntries = (
     await Promise.all(slugs.map(slug => pageEntry(baseUrl, `/${slug.replace(/--/g, '/')}`)))
@@ -78,6 +85,19 @@ export async function GET(): Promise<Response> {
             .trim(),
         })
       )
+    }
+    const usedCategories = presentCategories(posts, categories)
+    if (usedCategories.length) {
+      out.push('', `## ${blog.label} categories`)
+      for (const c of usedCategories) {
+        out.push(
+          line({
+            title: c.name,
+            url: `${baseUrl}${categoryPath(blog.path, c.slug)}`,
+            desc: (c.description || '').replace(/\s+/g, ' ').trim(),
+          })
+        )
+      }
     }
   }
 

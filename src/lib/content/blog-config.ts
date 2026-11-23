@@ -1,5 +1,6 @@
 import { promises as fs } from 'node:fs'
 import path from 'node:path'
+import { CATEGORY_SEGMENT } from './category-path'
 
 /**
  * Per-client blog/insights section config (content/blog.json). Lets a firm name
@@ -76,4 +77,36 @@ export async function readBlogConfigFile(cwd: string): Promise<BlogConfig> {
   } catch {
     return resolveBlogConfig({})
   }
+}
+
+/**
+ * `category` (the fixed category-page segment, `{blogPath}/category/{slug}`) is
+ * a reserved post slug: the category route wins, and a post literally named
+ * `category` is never routed (the onboarding app never generates that slug).
+ */
+export function isReservedPostSlug(slug: string): boolean {
+  return slug === CATEGORY_SEGMENT
+}
+
+export type BlogTarget =
+  | { kind: 'index' }
+  | { kind: 'category'; slug: string }
+  | { kind: 'post'; slug: string }
+
+/**
+ * What a catch-all `[...slug]` request means when the blog lives at a CUSTOM
+ * path. Null at the default path (the physical /resources routes own the blog)
+ * and for anything that isn't the blog. Category pages are matched before
+ * posts; a bare `{blogPath}/category` is not a post and falls through.
+ */
+export function resolveBlogTarget(segments: string[], blogPath: string): BlogTarget | null {
+  if (blogPath === DEFAULT_BLOG_PATH) return null
+  const base = blogPath.replace(/^\//, '')
+  if (segments[0] !== base) return null
+  if (segments.length === 1) return { kind: 'index' }
+  if (segments[1] === CATEGORY_SEGMENT) {
+    return segments.length === 3 ? { kind: 'category', slug: segments[2] } : null
+  }
+  if (segments.length === 2) return { kind: 'post', slug: segments[1] }
+  return null
 }

@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation'
 import { listPostSlugs } from '@/lib/content/get-post'
 import { listPageSlugs } from '@/lib/content/get-page'
 import { getBlogConfig } from '@/lib/content/get-blog-config'
-import { DEFAULT_BLOG_PATH } from '@/lib/content/blog-config'
+import { DEFAULT_BLOG_PATH, isReservedPostSlug } from '@/lib/content/blog-config'
 import { BlogPost, blogPostMetadata } from '@/lib/content/blog-views'
 import { renderGeneratedPage, generatedPageMetadata } from '@/components/assembly/GeneratedMarkdownPage'
 
@@ -19,7 +19,8 @@ const EMPTY_PLACEHOLDER = '__no_posts__'
 export async function generateStaticParams() {
   const blog = await getBlogConfig()
   if (blog.path === DEFAULT_BLOG_PATH) {
-    const slugs = (await listPostSlugs()).filter((s) => s.trim() !== '')
+    // `category` is reserved for /resources/category/<slug> pages, never a post.
+    const slugs = (await listPostSlugs()).filter((s) => s.trim() !== '' && !isReservedPostSlug(s))
     return slugs.length === 0 ? [{ slug: EMPTY_PLACEHOLDER }] : slugs.map((slug) => ({ slug }))
   }
   // Custom path: single-segment pages living directly under /resources.

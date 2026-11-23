@@ -2,6 +2,52 @@
 
 All notable changes to this template are recorded here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project loosely follows semver — though as a per-client template, "release" means "checkpoint on `main`" rather than a published package version.
 
+## [2026.09.15] — Blog categories
+
+### Added
+- **Blog categories** from `content/categories.json` (written by the Revaltus
+  platform) and a post's `categories:` frontmatter (category ids, primary
+  first). A missing or invalid file means no categories; the build never fails
+  on it.
+- **Category chips** on the blog index, linking to real category pages. Only
+  categories with at least one post appear; "All" links back to the index.
+- **Category pages** at `{blogPath}/category/{slug}`: heading = name, intro =
+  description (fallback "Articles about {name}."), own canonical + meta
+  description, statically generated. Search, type chips, tag and sort still
+  work within the category. Unknown or empty category → 404. Default path:
+  `src/app/resources/category/[slug]/page.tsx` (yields to a page when a custom
+  blog path is set); custom path: the catch-all, matched before posts.
+- **Post pages** show their category links; BlogPosting JSON-LD gets
+  `articleSection` = the primary category's name.
+- Category pages are listed in `sitemap.xml` and `llms.txt`.
+- `category` is a reserved post slug: the category route wins.
+
+### Fixed
+- The blog index `<title>` no longer repeats the firm name ("Resources | Firm |
+  Firm"); the root layout's title template already appends it.
+
+### Rollout notes (template 2026.09.14 → 2026.09.15)
+Ship in ONE commit, `c5-template.json` last. Roll the template to a site
+**before** the platform writes categories into that site's posts.
+- **Overwrite (M):** `CHANGELOG.md`, `docs/authoring-content.md`,
+  `src/app/[...slug]/page.tsx`, `src/app/llms.txt/route.ts`,
+  `src/app/resources/[slug]/page.tsx`, `src/app/sitemap.ts`,
+  `src/components/blocks/ResourceBrowser.tsx`,
+  `src/lib/content/blog-config.test.ts`, `src/lib/content/blog-config.ts`,
+  `src/lib/content/blog-views.tsx`, `src/lib/content/filter-posts.test.ts`,
+  `src/lib/content/filter-posts.ts`, `src/lib/content/get-post.ts`,
+  `src/lib/content/post-frontmatter-schema.ts`,
+  `src/lib/theme/template-marker.test.ts`.
+- **Add (A):** `src/app/resources/category/[slug]/page.tsx`,
+  `src/app/sitemap.test.ts`, `src/lib/content/categories.ts`,
+  `src/lib/content/category-path.ts`, `src/lib/content/get-categories.test.ts`,
+  `src/lib/content/get-categories.ts`.
+- **Delete (D):** none.
+- **Write last:** `c5-template.json` = `{"templateVersion": "2026.09.15",
+  "capabilities": ["fonts", "style-axes", "specimen", "layout-presets"],
+  "syncedFrom": "<the template main SHA being rolled out>"}`.
+- theme.css is not rewritten; no package.json change.
+
 ## [2026.09.14] — FAQ answers readable by search engines and AI
 
 **No visible change:** FAQ answers still open and close the same way.

@@ -9,9 +9,12 @@ import { Badge } from '@/components/ui/badge'
 import { ResourceBrowser } from '@/components/blocks/ResourceBrowser'
 import { getBrandConfig } from '@/lib/brand/get-brand-config'
 import { getBlogConfig } from '@/lib/content/get-blog-config'
-import { getPost, listPostsMeta, relatedPosts } from '@/lib/content/get-post'
+import { isReservedPostSlug } from '@/lib/content/blog-config'
+import { categoryPath } from '@/lib/content/category-path'
+import { getCategories, getCategoryBySlug, type BlogCategory } from '@/lib/content/get-categories'
+import { getPost, listPostsMeta, relatedPosts, type PostMeta } from '@/lib/content/get-post'
 import { asPostContentType, CONTENT_TYPE_META } from '@/lib/content/content-type-meta'
-import type { BrowsablePost } from '@/lib/content/filter-posts'
+import { presentCategories, type BrowsablePost } from '@/lib/content/filter-posts'
 import { resolveImageSrc } from '@/lib/assembly/resolve-image'
 import { MD_LINK_COMPONENTS } from '@/lib/markdown-components'
 import { cn } from '@/lib/utils'
@@ -34,21 +37,23 @@ function formatDate(iso: string, month: 'short' | 'long' = 'short'): string {
 
 export async function blogIndexMetadata(): Promise<Metadata> {
   const [brand, blog] = await Promise.all([getBrandConfig(), getBlogConfig()])
-  const title = `${blog.title} | ${brand.firm.name}`
+  // The root layout's title template appends the firm name; social titles
+  // carry it explicitly.
+  const title = blog.title
+  const socialTitle = `${blog.title} | ${brand.firm.name}`
   const description = `Tax, advisory, and accounting resources from ${brand.firm.name}.`
   const canonical = `${siteConfig.siteUrl.replace(/\/$/, '')}${blog.path}`
   return {
     title,
     description,
     alternates: { canonical },
-    openGraph: { title, description, url: canonical, type: 'website', images: [{ url: '/api/og', width: 1200, height: 630 }] },
-    twitter: { card: 'summary_large_image', title, description, images: ['/api/og'] },
+    openGraph: { title: socialTitle, description, url: canonical, type: 'website', images: [{ url: '/api/og', width: 1200, height: 630 }] },
+    twitter: { card: 'summary_large_image', title: socialTitle, description, images: ['/api/og'] },
   }
 }
 
-export async function BlogIndex() {
-  const [blog, posts] = await Promise.all([getBlogConfig(), listPostsMeta()])
-  const browsable: BrowsablePost[] = posts.map((p) => ({
+function toBrowsable(p: PostMeta): BrowsablePost {
+  return {
     slug: p.slug,
     title: p.frontmatter.title,
     excerpt: p.frontmatter.excerpt ?? '',
@@ -57,27 +62,121 @@ export async function BlogIndex() {
     imageSrc: resolveImageSrc(p.frontmatter.image),
     imageAlt: p.frontmatter.image_alt,
     tags: p.frontmatter.tags ?? [],
+    categories: p.categories,
     contentType: asPostContentType(p.frontmatter.content_type),
-  }))
+  }
+}
 
+/** Routable posts (a post slugged `category` is shadowed by the category route). */
+async function browsablePosts(): Promise<BrowsablePost[]> {
+  return (await listPostsMeta()).filter((p) => !isReservedPostSlug(p.slug)).map(toBrowsable)
+}
+
+/** Categories with at least one post, in categories.json order — the ones that get a page. */
+export async function categoriesWithPosts(): Promise<BlogCategory[]> {
+  const [posts, categories] = await Promise.all([browsablePosts(), getCategories()])
+  return presentCategories(posts, categories)
+}
+
+function categoryIntro(category: BlogCategory): string {
+  return category.description?.trim() || `Articles about ${category.name}.`
+}
+
+/** A category that has a page: known AND has at least one post. */
+async function routableCategory(slug: string): Promise<BlogCategory | null> {
+  const category = await getCategoryBySlug(slug)
+  if (!category) return null
+  const withPosts = await categoriesWithPosts()
+  return withPosts.some((c) => c.id === category.id) ? category : null
+}
+
+function BlogListing({
+  title,
+  intro,
+  posts,
+  categories,
+  basePath,
+  activeCategory,
+}: {
+  title: string
+  intro: string
+  posts: BrowsablePost[]
+  categories: BlogCategory[]
+  basePath: string
+  activeCategory: string | null
+}) {
   return (
     <>
       <Section dataBlock="page-header" className="text-center">
-        <h1 className="font-heading text-4xl md:text-5xl font-semibold text-foreground">{blog.title}</h1>
-        <p className="mt-3 max-w-2xl mx-auto text-foreground/70 leading-relaxed">{blog.intro}</p>
+        <h1 className="font-heading text-4xl md:text-5xl font-semibold text-foreground">{title}</h1>
+        <p className="mt-3 max-w-2xl mx-auto text-foreground/70 leading-relaxed">{intro}</p>
       </Section>
       <Section dataBlock="resource-browser">
-        {browsable.length === 0 ? (
+        {posts.length === 0 ? (
           <p className="text-center text-foreground/60">No posts published yet — check back soon.</p>
         ) : (
-          <ResourceBrowser posts={browsable} basePath={blog.path} />
+          <ResourceBrowser
+            posts={posts}
+            basePath={basePath}
+            categories={categories}
+            activeCategory={activeCategory}
+          />
         )}
       </Section>
     </>
   )
 }
 
+export async function BlogIndex() {
+  const [blog, posts, categories] = await Promise.all([getBlogConfig(), browsablePosts(), getCategories()])
+  return (
+    <BlogListing
+      title={blog.title}
+      intro={blog.intro}
+      posts={posts}
+      categories={presentCategories(posts, categories)}
+      basePath={blog.path}
+      activeCategory={null}
+    />
+  )
+}
+
+export async function categoryIndexMetadata(slug: string): Promise<Metadata | null> {
+  const category = await routableCategory(slug)
+  if (!category) return null
+  const [brand, blog] = await Promise.all([getBrandConfig(), getBlogConfig()])
+  const title = `${category.name} | ${blog.title}` // layout template appends the firm name
+  const socialTitle = `${title} | ${brand.firm.name}`
+  const description = categoryIntro(category)
+  const canonical = `${siteConfig.siteUrl.replace(/\/$/, '')}${categoryPath(blog.path, category.slug)}`
+  return {
+    title,
+    description,
+    alternates: { canonical },
+    openGraph: { title: socialTitle, description, url: canonical, type: 'website', images: [{ url: '/api/og', width: 1200, height: 630 }] },
+    twitter: { card: 'summary_large_image', title: socialTitle, description, images: ['/api/og'] },
+  }
+}
+
+/** Render a category page, or null when `slug` is unknown or has no posts. */
+export async function CategoryIndex({ slug }: { slug: string }) {
+  const category = await routableCategory(slug)
+  if (!category) return null
+  const [blog, posts, categories] = await Promise.all([getBlogConfig(), browsablePosts(), getCategories()])
+  return (
+    <BlogListing
+      title={category.name}
+      intro={categoryIntro(category)}
+      posts={posts}
+      categories={presentCategories(posts, categories)}
+      basePath={blog.path}
+      activeCategory={category.slug}
+    />
+  )
+}
+
 export async function blogPostMetadata(slug: string): Promise<Metadata | null> {
+  if (isReservedPostSlug(slug)) return null
   const post = await getPost(slug)
   if (!post) return null
   const blog = await getBlogConfig()
@@ -111,14 +210,21 @@ export async function blogPostMetadata(slug: string): Promise<Metadata | null> {
 
 /** Render a blog post detail, or return null when `slug` is not a post. */
 export async function BlogPost({ slug }: { slug: string }) {
+  // `category` is reserved for category pages; such a post is never routed.
+  if (isReservedPostSlug(slug)) return null
   const post = await getPost(slug)
   if (!post) return null
 
-  const [brand, related, blog] = await Promise.all([
+  const [brand, related, blog, allCategories] = await Promise.all([
     getBrandConfig(),
     relatedPosts(post.slug, post.frontmatter.tags),
     getBlogConfig(),
+    getCategories(),
   ])
+  // The post's categories in its own order (first = primary).
+  const postCategories = post.categories
+    .map((id) => allCategories.find((c) => c.id === id))
+    .filter((c): c is BlogCategory => c !== undefined)
   const typeMeta = CONTENT_TYPE_META[asPostContentType(post.frontmatter.content_type)]
   const canonical =
     post.frontmatter.canonical_url || `${siteConfig.siteUrl.replace(/\/$/, '')}${blog.path}/${post.slug}`
@@ -130,6 +236,7 @@ export async function BlogPost({ slug }: { slug: string }) {
     description: post.frontmatter.meta_description || post.frontmatter.excerpt || undefined,
     abstract: post.frontmatter.answer_block || undefined,
     datePublished: post.frontmatter.date || undefined,
+    articleSection: postCategories[0]?.name,
     author: post.frontmatter.author
       ? { '@type': 'Person', name: post.frontmatter.author }
       : { '@type': 'Organization', name: brand.firm.name },
@@ -159,6 +266,19 @@ export async function BlogPost({ slug }: { slug: string }) {
           {post.frontmatter.title}
         </h1>
         {post.frontmatter.author && <p className="mt-3 text-foreground/70">By {post.frontmatter.author}</p>}
+        {postCategories.length > 0 && (
+          <p className="mt-3 text-sm text-foreground/70">
+            <span className="sr-only">Categories: </span>
+            {postCategories.map((c, i) => (
+              <span key={c.id}>
+                {i > 0 && <span aria-hidden="true"> · </span>}
+                <Link href={categoryPath(blog.path, c.slug)} className="text-primary hover:underline">
+                  {c.name}
+                </Link>
+              </span>
+            ))}
+          </p>
+        )}
         {post.frontmatter.excerpt && (
           <p className="mt-4 text-lg text-foreground/75 leading-relaxed">{post.frontmatter.excerpt}</p>
         )}

@@ -25,6 +25,11 @@ export const PostFrontmatterSchema = z
     image: z.string().optional(),
     image_alt: z.string().optional(),
     tags: z.array(z.string()).optional(),
+    /** Category ids (c-xxxxxx) from content/categories.json; resolved in get-post. */
+    categories: z.preprocess(
+      (v) => (typeof v === 'string' ? [v] : Array.isArray(v) ? v.filter((x) => typeof x === 'string') : undefined),
+      z.array(z.string()).optional()
+    ),
     /**
      * Long-form content type written by the onboarding drafter
      * (blog | article | thought-leadership | case-study). Lenient string so an

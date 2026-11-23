@@ -3,15 +3,29 @@ import {
   filterPosts,
   presentContentTypes,
   collectTags,
+  presentCategories,
   DEFAULT_POST_FILTERS,
   type BrowsablePost,
   type PostFilters,
 } from './filter-posts'
 
 const posts: BrowsablePost[] = [
-  { slug: 'a', title: 'Year-end tax tips', excerpt: 'Save before December', date: '2026-01-10', tags: ['Tax', 'Small Business'], contentType: 'blog' },
-  { slug: 'b', title: 'Choosing an entity', excerpt: 'LLC vs S-corp', date: '2026-03-01', tags: ['Entity'], contentType: 'article' },
-  { slug: 'c', title: 'How we saved a client 40%', excerpt: 'A real story', date: '2026-02-15', tags: ['Tax'], contentType: 'case-study' },
+  { slug: 'a', title: 'Year-end tax tips', excerpt: 'Save before December', date: '2026-01-10', tags: ['Tax', 'Small Business'], categories: [], contentType: 'blog' },
+  { slug: 'b', title: 'Choosing an entity', excerpt: 'LLC vs S-corp', date: '2026-03-01', tags: ['Entity'], categories: [], contentType: 'article' },
+  { slug: 'c', title: 'How we saved a client 40%', excerpt: 'A real story', date: '2026-02-15', tags: ['Tax'], categories: [], contentType: 'case-study' },
+]
+
+import type { BlogCategory } from './categories'
+
+const cats: BlogCategory[] = [
+  { id: 'c-aaaaaa', name: 'Construction', slug: 'construction' },
+  { id: 'c-bbbbbb', name: 'Retail', slug: 'retail' },
+  { id: 'c-cccccc', name: 'Empty', slug: 'empty' },
+]
+const catPosts: BrowsablePost[] = [
+  { ...posts[0], categories: ['c-aaaaaa'] },
+  { ...posts[1], categories: ['c-bbbbbb', 'c-aaaaaa'] },
+  { ...posts[2], categories: [] },
 ]
 
 const filters = (over: Partial<PostFilters>): PostFilters => ({ ...DEFAULT_POST_FILTERS, ...over })
@@ -65,5 +79,22 @@ describe('presentContentTypes', () => {
 describe('collectTags', () => {
   it('returns unique tags sorted alphabetically, first-seen casing', () => {
     expect(collectTags(posts)).toEqual(['Entity', 'Small Business', 'Tax'])
+  })
+})
+
+describe('category filter', () => {
+  it('filters by category slug', () => {
+    const out = filterPosts(catPosts, filters({ category: 'construction' }), cats)
+    expect(out.map((p) => p.slug).sort()).toEqual(['a', 'b'])
+  })
+  it('matches nothing for an unknown slug', () => {
+    expect(filterPosts(catPosts, filters({ category: 'nope' }), cats)).toEqual([])
+  })
+})
+
+describe('presentCategories', () => {
+  it('hides empty categories and keeps file order', () => {
+    expect(presentCategories(catPosts, cats).map((c) => c.slug)).toEqual(['construction', 'retail'])
+    expect(presentCategories([catPosts[1]], [cats[1], cats[0]]).map((c) => c.slug)).toEqual(['retail', 'construction'])
   })
 })
