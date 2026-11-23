@@ -3,6 +3,10 @@ import { cacheLife } from 'next/cache'
 import { listPageSlugs } from '@/lib/content/get-page'
 import { listPostsMeta } from '@/lib/content/get-post'
 import { getBlogConfig } from '@/lib/content/get-blog-config'
+import { getCategories } from '@/lib/content/get-categories'
+import { presentCategories } from '@/lib/content/filter-posts'
+import { isReservedPostSlug } from '@/lib/content/blog-config'
+import { categoryPath } from '@/lib/content/category-path'
 import { siteConfig } from '../../site.config'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -11,7 +15,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   'use cache'
   cacheLife('max')
   const baseUrl = siteConfig.siteUrl.replace(/\/$/, '')
-  const [slugs, posts, blog] = await Promise.all([listPageSlugs(), listPostsMeta(), getBlogConfig()])
+  const [slugs, allPosts, blog, categories] = await Promise.all([
+    listPageSlugs(),
+    listPostsMeta(),
+    getBlogConfig(),
+    getCategories(),
+  ])
+  // A post slugged `category` is shadowed by the category route — never list it.
+  const posts = allPosts.filter((p) => !isReservedPostSlug(p.slug))
 
   // listPageSlugs already excludes 'home' (it's served from app/page.tsx).
   // Each remaining slug is one URL segment with '--' as path separator.
@@ -48,6 +59,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         url: `${baseUrl}${blog.path}/${p.slug}`,
         lastModified: Number.isNaN(parsed.getTime()) ? new Date() : parsed,
         changeFrequency: 'monthly',
+        priority: 0.5,
+      })
+    }
+    // Category pages, only for categories that have at least one post.
+    for (const c of presentCategories(posts, categories)) {
+      entries.push({
+        url: `${baseUrl}${categoryPath(blog.path, c.slug)}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
         priority: 0.5,
       })
     }

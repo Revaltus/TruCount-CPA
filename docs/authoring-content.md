@@ -225,7 +225,14 @@ Insights live in `content/posts/`. Each post is a single Markdown file.
 5. **`tags`** are not displayed yet but are searchable in the file and useful
    for future filtering.
 
-6. Save the file. Within ~60 seconds, the post is live at
+6. **`categories`** (optional) lists category ids from `content/categories.json`,
+   primary first: `categories: [c-1a2b3c]`. The Revaltus platform manages both
+   the file and the ids; unknown ids are ignored. Each category with at least
+   one post gets a page at `/resources/category/<category-slug>` (under the
+   custom blog path when one is set), a filter chip on the blog index, and a
+   sitemap + `llms.txt` entry. `category` is a reserved post slug.
+
+7. Save the file. Within ~60 seconds, the post is live at
    `/resources/<slug>`, sorted in date order on `/resources`, and listed in
    the RSS feed at `/feed.xml`.
 

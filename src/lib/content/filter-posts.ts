@@ -1,5 +1,6 @@
 import type { PostContentType } from './content-type-meta'
 import { asPostContentType, CONTENT_TYPE_ORDER } from './content-type-meta'
+import type { BlogCategory } from './categories'
 
 /**
  * Lightweight, serializable post shape the resources browser renders and
@@ -15,6 +16,8 @@ export type BrowsablePost = {
   imageSrc?: string
   imageAlt?: string
   tags: string[]
+  /** Category ids (already filtered to known categories). */
+  categories: string[]
   contentType: PostContentType
 }
 
@@ -27,6 +30,8 @@ export type PostFilters = {
   contentType: PostContentType | 'all'
   /** A specific tag (exact, case-insensitive), or null for any. */
   tag: string | null
+  /** A category SLUG, or null for any. Needs the categories list passed to filterPosts. */
+  category: string | null
   sort: SortOrder
 }
 
@@ -34,6 +39,7 @@ export const DEFAULT_POST_FILTERS: PostFilters = {
   search: '',
   contentType: 'all',
   tag: null,
+  category: null,
   sort: 'newest',
 }
 
@@ -45,12 +51,22 @@ function matchesSearch(post: BrowsablePost, query: string): boolean {
   return post.tags.some((t) => t.toLowerCase().includes(q))
 }
 
-/** Pure filter + sort. Never mutates the input array. */
-export function filterPosts(posts: BrowsablePost[], filters: PostFilters): BrowsablePost[] {
+/**
+ * Pure filter + sort. Never mutates the input array. `categories` is the site's
+ * category list, used to resolve `filters.category` (slug) to an id; an unknown
+ * slug matches nothing.
+ */
+export function filterPosts(
+  posts: BrowsablePost[],
+  filters: PostFilters,
+  categories: BlogCategory[] = [],
+): BrowsablePost[] {
+  const categoryId = filters.category ? (categories.find((c) => c.slug === filters.category)?.id ?? null) : null
   const tagNeedle = filters.tag?.toLowerCase() ?? null
   const filtered = posts.filter((post) => {
     if (filters.contentType !== 'all' && post.contentType !== filters.contentType) return false
     if (tagNeedle && !post.tags.some((t) => t.toLowerCase() === tagNeedle)) return false
+    if (filters.category && (!categoryId || !post.categories.includes(categoryId))) return false
     if (!matchesSearch(post, filters.search)) return false
     return true
   })
@@ -80,4 +96,10 @@ export function collectTags(posts: BrowsablePost[]): string[] {
     }
   }
   return [...seen.values()].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
+}
+
+/** Categories with at least one post, in categories.json (file) order. */
+export function presentCategories(posts: { categories: string[] }[], all: BlogCategory[]): BlogCategory[] {
+  const used = new Set(posts.flatMap((p) => p.categories))
+  return all.filter((c) => used.has(c.id))
 }

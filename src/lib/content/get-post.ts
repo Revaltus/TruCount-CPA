@@ -4,18 +4,23 @@ import matter from 'gray-matter'
 import { cacheLife } from 'next/cache'
 import { PostFrontmatterSchema, type PostFrontmatter } from './post-frontmatter-schema'
 import { stripGeneratorNotesFromBody } from './strip-generator-notes'
+import { getCategories } from './get-categories'
+import { resolvePostCategoryIds } from './categories'
 
 const POSTS_DIR = () => path.join(process.cwd(), 'content', 'posts')
 
 export type Post = {
   slug: string
   frontmatter: PostFrontmatter
+  /** Category ids filtered to those in categories.json ([] when none/unknown). */
+  categories: string[]
   body: string
 }
 
 export type PostMeta = {
   slug: string
   frontmatter: PostFrontmatter
+  categories: string[]
 }
 
 /**
@@ -74,6 +79,7 @@ export async function getPost(slug: string): Promise<Post | null> {
   return {
     slug: frontmatter.slug || slug,
     frontmatter,
+    categories: resolvePostCategoryIds(frontmatter.categories, await getCategories()),
     // A page relocated into content/posts/ still carries the platform's
     // "## SEO & AIO Metadata" / "## Structured Data" review trailer — never
     // render it (strip-generator-notes.ts).
@@ -97,7 +103,7 @@ export async function listPostsMeta(): Promise<PostMeta[]> {
   const posts = await Promise.all(slugs.map((slug) => getPost(slug)))
   const entries: PostMeta[] = posts
     .filter((p): p is Post => p !== null)
-    .map((p) => ({ slug: p.slug, frontmatter: p.frontmatter }))
+    .map((p) => ({ slug: p.slug, frontmatter: p.frontmatter, categories: p.categories }))
   return entries.sort((a, b) => {
     const da = a.frontmatter.date || ''
     const db = b.frontmatter.date || ''

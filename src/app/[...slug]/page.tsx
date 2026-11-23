@@ -4,8 +4,17 @@ import { listPageSlugs } from '@/lib/content/get-page'
 import { listPostSlugs } from '@/lib/content/get-post'
 import { pageSlugToSegments } from '@/lib/content/page-slug'
 import { getBlogConfig } from '@/lib/content/get-blog-config'
-import { DEFAULT_BLOG_PATH } from '@/lib/content/blog-config'
-import { BlogIndex, BlogPost, blogIndexMetadata, blogPostMetadata } from '@/lib/content/blog-views'
+import { DEFAULT_BLOG_PATH, isReservedPostSlug, resolveBlogTarget, type BlogTarget } from '@/lib/content/blog-config'
+import { CATEGORY_SEGMENT } from '@/lib/content/category-path'
+import {
+  BlogIndex,
+  BlogPost,
+  CategoryIndex,
+  blogIndexMetadata,
+  blogPostMetadata,
+  categoriesWithPosts,
+  categoryIndexMetadata,
+} from '@/lib/content/blog-views'
 import {
   renderGeneratedPage,
   generatedPageMetadata,
@@ -50,7 +59,10 @@ export async function generateStaticParams() {
     const base = blog.path.replace(/^\//, '')
     params.push({ slug: [base] })
     for (const post of await listPostSlugs()) {
-      if (post.trim() !== '') params.push({ slug: [base, post] })
+      if (post.trim() !== '' && !isReservedPostSlug(post)) params.push({ slug: [base, post] })
+    }
+    for (const category of await categoriesWithPosts()) {
+      params.push({ slug: [base, CATEGORY_SEGMENT, category.slug] })
     }
   }
   // Cache Components requires generateStaticParams to return at least one entry
@@ -58,24 +70,24 @@ export async function generateStaticParams() {
   return params.length > 0 ? params : [{ slug: [EMPTY_PLACEHOLDER] }]
 }
 
-// Resolve whether a requested slug[] targets the custom-path blog index or a
-// blog post. Returns 'index', 'post', or null (not the blog / default path).
-async function blogTarget(slug: string[]): Promise<'index' | { post: string } | null> {
+// What a requested slug[] means for a custom-path blog (index, category page,
+// post), or null at the default path / outside the blog. See resolveBlogTarget.
+async function blogTarget(slug: string[]): Promise<BlogTarget | null> {
   const blog = await getBlogConfig()
-  if (blog.path === DEFAULT_BLOG_PATH) return null
-  const base = blog.path.replace(/^\//, '')
-  if (slug.length === 1 && slug[0] === base) return 'index'
-  if (slug.length === 2 && slug[0] === base) return { post: slug[1] }
-  return null
+  return resolveBlogTarget(slug, blog.path)
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   if (slug[0] === EMPTY_PLACEHOLDER) return { title: 'Not found' }
   const target = await blogTarget(slug)
-  if (target === 'index') return blogIndexMetadata()
-  if (target && 'post' in target) {
-    const meta = await blogPostMetadata(target.post)
+  if (target?.kind === 'index') return blogIndexMetadata()
+  if (target?.kind === 'category') {
+    const meta = await categoryIndexMetadata(target.slug)
+    if (meta) return meta
+  }
+  if (target?.kind === 'post') {
+    const meta = await blogPostMetadata(target.slug)
     if (meta) return meta
   }
   const meta = await generatedPageMetadata(slugToUrl(slug), slug.join('/'))
@@ -86,12 +98,18 @@ export default async function DynamicPage({ params }: Props) {
   const { slug } = await params
   if (slug[0] === EMPTY_PLACEHOLDER) notFound()
 
-  // Custom-path blog: this catch-all serves the index and posts (the physical
-  // /resources route yields to a page when a custom path is set).
+  // Custom-path blog: this catch-all serves the index, category pages and
+  // posts (the physical /resources routes yield to a page when a custom path is
+  // set). Category pages are resolved before posts.
   const target = await blogTarget(slug)
-  if (target === 'index') return <BlogIndex />
-  if (target && 'post' in target) {
-    const post = await BlogPost({ slug: target.post })
+  if (target?.kind === 'index') return <BlogIndex />
+  if (target?.kind === 'category') {
+    const page = await CategoryIndex({ slug: target.slug })
+    if (page) return page
+    // Unknown/empty category — fall through to normal page handling (→ 404).
+  }
+  if (target?.kind === 'post') {
+    const post = await BlogPost({ slug: target.slug })
     if (post) return post
     // Not a post under the blog path — fall through to normal page handling.
   }

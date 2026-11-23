@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import { normalizeBlogPath, resolveBlogConfig, DEFAULT_BLOG_PATH } from './blog-config'
+import {
+  normalizeBlogPath,
+  resolveBlogConfig,
+  resolveBlogTarget,
+  isReservedPostSlug,
+  DEFAULT_BLOG_PATH,
+} from './blog-config'
 
 describe('normalizeBlogPath', () => {
   it('defaults when absent, empty, or non-string', () => {
@@ -46,5 +52,39 @@ describe('resolveBlogConfig', () => {
     const cfg = resolveBlogConfig({ label: 'News', title: 'Latest News & Updates' })
     expect(cfg.label).toBe('News')
     expect(cfg.title).toBe('Latest News & Updates')
+  })
+})
+
+describe('resolveBlogTarget (custom-path catch-all)', () => {
+  it('is null at the default path (the /resources routes own the blog)', () => {
+    expect(resolveBlogTarget(['resources'], DEFAULT_BLOG_PATH)).toBeNull()
+    expect(resolveBlogTarget(['resources', 'category', 'construction'], DEFAULT_BLOG_PATH)).toBeNull()
+  })
+
+  it('resolves the index and posts under the custom path', () => {
+    expect(resolveBlogTarget(['insights'], '/insights')).toEqual({ kind: 'index' })
+    expect(resolveBlogTarget(['insights', 'tax-tips'], '/insights')).toEqual({ kind: 'post', slug: 'tax-tips' })
+  })
+
+  it('resolves /insights/category/construction to the category page, before post matching', () => {
+    expect(resolveBlogTarget(['insights', 'category', 'construction'], '/insights')).toEqual({
+      kind: 'category',
+      slug: 'construction',
+    })
+  })
+
+  it('does not treat a bare /insights/category as a post (falls through to 404)', () => {
+    expect(resolveBlogTarget(['insights', 'category'], '/insights')).toBeNull()
+  })
+
+  it('ignores paths outside the blog and deeper nesting', () => {
+    expect(resolveBlogTarget(['services'], '/insights')).toBeNull()
+    expect(resolveBlogTarget(['insights', 'a', 'b'], '/insights')).toBeNull()
+    expect(resolveBlogTarget(['insights', 'category', 'a', 'b'], '/insights')).toBeNull()
+  })
+
+  it('marks "category" as a reserved post slug', () => {
+    expect(isReservedPostSlug('category')).toBe(true)
+    expect(isReservedPostSlug('categories')).toBe(false)
   })
 })
