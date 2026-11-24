@@ -17,23 +17,23 @@ schema_markup: "FAQPage"
 answer_block: "Subscription creep is the gradual accumulation of small recurring charges, personal or business, that go unnoticed and quietly drain cash flow. The fix is a quarterly audit of every recurring charge, paired with real-time bookkeeping so unused subscriptions get flagged before they add up over months."
 ---
 
-*By TruCount CPA  PC— Accounting, tax and advisory firm in South Dakota, serving clients in the Brookings area and throughout the Midwest*
+*By TruCount CPA  PC, Accounting, tax and advisory firm in South Dakota, serving clients in the Brookings area and throughout the Midwest*
 
-That $9.99 streaming trial you signed up for during a slow Tuesday night two years ago is still billing you. So is the software tool your bookkeeper stopped using in March. Multiply that across a dozen subscriptions, personal or business, and you've got a quiet leak in your budget that never shows up as one big number, just a string of small ones that add up to real money by December.
+Picture a $9.99 streaming trial from a slow Tuesday night two years ago that is still billing, plus a software tool your team stopped using in March. Across a dozen subscriptions, personal or business, those small charges add up to real money by December. The good news: they're easy to find and fix.
 
-We see this constantly with farm families and service business owners across Brookings, Kingsbury, and Moody counties. Nobody sits down and decides to spend $340 a month on subscriptions. It happens one $12 charge at a time, and because each charge is small, nobody flags it as a problem worth solving. That's subscription creep, and it deserves the same attention you'd give any other line item on your budget.
+Imagine a farm family or service business owner in the Brookings area who never decided to spend $340 a month on subscriptions. It simply happened one $12 charge at a time. That's subscription creep, and with a little attention, it's money you can put back to work.
 
 ## Why subscription creep hides so well
 
-Subscriptions are designed to be invisible after the first charge. Annual renewals bill once and disappear from your radar for twelve months. Free trials convert automatically unless you cancel on a specific date you probably didn't write down. Software bundles get added "just for this season" and never get removed once the season ends.
+Subscriptions are designed to fade into the background after the first charge. Annual renewals vanish from your radar for twelve months, and free trials convert automatically unless you cancel on a date you probably didn't write down.
 
-For a service-based business, this shows up in overlapping tools: two project management platforms because the team never fully switched, a CRM nobody logs into anymore, cloud storage duplicated across three different vendors. For agribusiness operators, it's often equipment monitoring software, weather data services, or ag-tech platforms bought for one season's specific need and left running through the next three.
+A service business might end up with two project management platforms and duplicate cloud storage. An agribusiness might keep equipment monitoring or weather data services running long after the season that needed them.
 
-The Federal Reserve's [Consumer & Community Context](https://www.federalreserve.gov/consumerscommunities.htm) research has tracked how small, recurring costs affect household financial stability over time, precisely because they're easy to underestimate and hard to track without deliberate review.
+The Federal Reserve's [Consumer & Community Context](https://www.federalreserve.gov/consumerscommunities.htm) research has tracked how small, recurring costs affect household stability, since they're easy to underestimate without a deliberate review.
 
 ## Treat it like a budget line, not a nuisance
 
-The fix isn't a one-time purge. It's a recurring habit, the same way you'd review payroll costs or fuel expenses. [Here's a simple structure that works for both individuals and small business owners](/resources/take-back-control-of-subscription-creep-2):
+The fix isn't a one-time purge. It's a simple habit, like reviewing payroll or fuel costs. [Here's a simple structure that works for both individuals and small business owners](/resources/take-back-control-of-subscription-creep-2):
 
 | Step | What to do | How often |
 |---|---|---|
@@ -43,48 +43,50 @@ The fix isn't a one-time purge. It's a recurring habit, the same way you'd revie
 | Cancel or renegotiate | Cut unused items, call vendors on price increases | As needed |
 | Rebudget | Adjust your monthly recurring-expenses line to match reality | Annually |
 
-A quarterly review catches things a once-a-year cleanup misses. Subscriptions that seemed useful in January can be dead weight by June, especially for seasonal ag operations where software needs shift with planting and harvest.
+A quarterly review catches what a yearly cleanup misses, especially for seasonal ag operations where software needs shift with planting and harvest.
 
 ## What subscription creep costs a farm or service business
 
-Run the math on a modest example. A five-person service business carrying seven SaaS subscriptions at an average of $45 per month per tool spends $3,780 a year, and that's before annual price increases most vendors apply without much notice. For an ag operation layering in monitoring software, mapping tools, and data subscriptions across multiple pieces of equipment, that number climbs fast, often without anyone noticing until a bookkeeper flags it.
+Run the math on a simple example. A five-person service business with seven subscriptions at an average of $45 per month spends $3,780 a year, before any price increases. An ag operation with monitoring, mapping, and data tools can climb even higher.
 
-This is where recurring expenses stop being an annoyance and start being a cash-flow issue. Every dollar spent on a subscription nobody uses is a dollar that isn't going toward equipment maintenance, a tax reserve, or working capital during a slow season.
+The upside is real: every dollar you free up can go toward equipment maintenance, a tax reserve, or working capital for a slow season.
 
 ## Auditing subscriptions is easier with real-time numbers
 
-The biggest reason subscription creep survives so long is that most business owners don't see their numbers until months after the fact. If your bookkeeping is done quarterly, or worse, once a year at tax time, you're reviewing charges that are already ancient history.
+Subscription creep survives because most owners don't see their numbers until months after the fact. When bookkeeping happens once a year at tax time, the charges are already ancient history.
 
-Our clients work inside a secure online platform where transactions, categorized and reconciled, are visible in real time. That means a $59 monthly charge from a tool your team stopped using six months ago doesn't sit unnoticed until tax season. It gets flagged in the month it happens, while there's still time to act on it.
+With a secure online platform, transactions are categorized, reconciled, and visible in real time. A $59 monthly charge from a tool nobody uses gets flagged the month it happens, while there's still time to act.
 
-This is part of why bundled, fixed-fee service works better than piecing together a bookkeeper here and a tax preparer there. When bookkeeping, payroll, and tax planning live under one flat monthly fee, there's no incentive to skip the small stuff. Reviewing recurring expenses becomes part of the regular conversation, not an extra billable task somebody has to request. You can see what a bundled setup would look like for your situation on our [pricing calculator](/pricing-calculator).
+Bundling bookkeeping, payroll, and tax planning under one fixed monthly fee also means reviewing recurring expenses is part of the regular conversation, not an extra billable request. See what that could look like on our [pricing calculator](/pricing-calculator).
 
 ## Personal subscriptions deserve the same discipline
 
-Business owners often apply strict budget discipline at work and then let personal subscriptions run wild at home. Streaming services, meal kits, subscription boxes, fitness apps: they follow the exact same creep pattern, just on a smaller scale.
+Streaming services, meal kits, and fitness apps follow the same creep pattern at home, just on a smaller scale. The AICPA's [Personal Financial Planning resources](https://www.aicpa-cima.com/resources/landing/personal-financial-planning) point to recurring expense review as a foundational step, right alongside retirement contributions and debt management.
 
-The AICPA's [Personal Financial Planning resources](https://www.aicpa-cima.com/resources/landing/personal-financial-planning) point to recurring expense review as a basic step in personal financial planning, right alongside retirement contributions and debt management. It's not a minor habit. It's foundational.
-
-If you're already reviewing your business expenses quarterly, add a personal pass at the same time. Julie Underwood, CPA, and the team at TruCount work with individuals and families across South Dakota on year-round tax and financial planning, not just a once-a-year filing, which makes this kind of ongoing review a natural extension of the relationship rather than a separate project.
+If you're already reviewing business expenses quarterly, add a personal pass at the same time. TruCount CPA supports individuals and families with year-round tax and financial planning, so ongoing reviews like this fit naturally into the relationship.
 
 ## A quick audit you can run this week
 
-Start with your bank and credit card statements from the last three months. Highlight every recurring charge under $100. For each one, ask three questions: Do I know exactly what this is for? Have I used it in the last 30 days? Would I miss it if it disappeared tomorrow?
+Pull the last three months of bank and credit card statements and highlight every recurring charge under $100. For each, ask: Do I know what this is for? Have I used it in the last 30 days? Would I miss it tomorrow?
 
-Anything that gets a "no" to two of those three questions is a candidate for cancellation. This takes maybe 45 minutes and typically surfaces $100 to $300 a month in savings for a small business, sometimes more if there's been a software vendor switch that left the old tool still billing.
+Two "no" answers make it a candidate to cancel. It takes about 45 minutes, and a small business could easily free up $100 to $300 a month.
 
 ## Common Questions
 
 **How much does subscription creep typically cost a small business?**
-It varies by size and industry, but a business running seven to ten SaaS or service subscriptions at $30 to $60 each per month often spends $3,000 to $6,000 a year, a meaningful chunk of which usually goes toward tools that are underused or redundant.
+
+A business running seven to ten subscriptions at $30 to $60 each per month can spend $3,000 to $6,000 a year, and some of that is often underused or redundant.
 
 **How often should I audit recurring expenses?**
-Quarterly works best for most farms and service businesses, since seasonal needs change and software vendors adjust pricing throughout the year. An annual review alone tends to miss too much.
+
+Quarterly works best for most farms and service businesses, since seasonal needs change and vendors adjust pricing throughout the year.
 
 **Is subscription creep really a bookkeeping issue or just a personal habit?**
-Both. For a business, unused subscriptions eat into cash flow and distort your true operating costs. For individuals, they quietly reduce what's available for savings and debt payoff. Either way, it belongs in a regular financial review, not an occasional cleanup.
+
+Both. For a business, it affects cash flow and true operating costs. For individuals, it reduces what's available for savings and debt payoff. Either way, it belongs in a regular financial review.
 
 **What's the fastest way to catch subscription creep going forward?**
-Real-time bookkeeping. If your transactions are categorized and visible as they happen rather than months later, recurring charges that no longer make sense get flagged while there's still time to act, instead of showing up as a surprise at tax time.
 
-If subscription creep, or any other quiet leak in your budget, is something you'd rather have caught before it shows up as a surprise, [reach out through our contact page](/contact) and we'll walk through what a real-time view of your numbers could look like for your farm, business, or household.
+Real-time bookkeeping. When transactions are categorized and visible as they happen, charges that no longer make sense get flagged early instead of surprising you at tax time.
+
+Ready to catch quiet budget leaks early? [Reach out through our contact page](/contact) and we'll walk through what a real-time view of your numbers could look like for your farm, business, or household.
