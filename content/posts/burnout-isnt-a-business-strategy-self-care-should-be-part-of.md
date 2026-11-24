@@ -16,6 +16,9 @@ canonical_url: https://trucountcpa.com/resources/burnout-isnt-a-business-strateg
 schema_markup: "FAQPage"
 answer_block: "Self-care for business owners is a financial safeguard because burnout impairs the judgment needed to catch costly mistakes, from missed tax deadlines to overlooked deductions like the R&D credit or excess fertility deduction. Protecting rest and delegating repetitive financial tasks preserves the decision-making capacity that keeps a business solvent and growing."
 ---
+
+*By TruCount CPA  PC— Accounting, tax and advisory firm in South Dakota, serving clients in the Brookings area and throughout the Midwest*
+
 Picture a weeknight where the shop lights are off and you're at the dinner table with your family, fully present. Your books are current, your next tax move is already planned, and you're making decisions with a clear head. That's very doable, and protecting your energy is one of the smartest growth moves a farm or service business owner can make. A rested owner is the one who spots the opportunity, the deduction, and the deadline in time.
 
 Your judgment is among the most valuable assets in your business. Here's how to protect it so you and your business can keep thriving.
