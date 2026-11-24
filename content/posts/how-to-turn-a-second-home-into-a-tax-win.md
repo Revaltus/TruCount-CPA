@@ -28,7 +28,7 @@ Here's how that classification works and what it means for your return.
 The IRS doesn't ask whether you call it a vacation home, a cabin, or a rental. It looks at two numbers: personal-use days and rental days. Those numbers sort your property into one of three buckets under [IRS Publication 527](https://www.irs.gov/publications/p527).
 
 | Situation | Personal use | Rental use | How it's taxed |
-|---|---|---|
+|---|---|---|---|
 | Personal residence with minimal rental | Any amount | 14 days or fewer | Rental income isn't reported at all; no rental deductions |
 | Dwelling used as a home | More than 14 days, or more than 10% of rental days | Any amount | Rental income reported; expenses limited to rental income, no loss allowed |
 | Rental property | 14 days or fewer, or 10% or less of rental days | Any amount | Rental income reported; losses may be deductible, subject to passive activity rules |
