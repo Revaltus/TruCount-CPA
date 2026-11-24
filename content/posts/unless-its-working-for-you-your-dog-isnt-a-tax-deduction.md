@@ -16,6 +16,9 @@ canonical_url: https://trucountcpa.com/resources/unless-its-working-for-you-your
 schema_markup: "FAQPage"
 answer_block: "A dog care tax deduction generally only applies to service animals performing documented medical tasks, or to dogs with a genuine, documented business function like guarding a shop or working livestock. Ordinary household pets, even ones that live at a business or provide emotional comfort, don't meet the IRS standards under Publications 502 and 535."
 ---
+
+*By TruCount CPA  PC— Accounting, tax and advisory firm in South Dakota, serving clients in the Brookings area and throughout the Midwest*
+
 Every January, somebody asks Julie Underwood, CPA, whether their golden retriever counts as a business expense because he "guards the office" by sleeping under her desk. The honest answer is almost always no. But buried in the tax code are a handful of narrow, well-documented situations where a dog really can reduce what you owe the IRS. If you're a farmer, a service-business owner, or someone managing a chronic condition, it's worth [knowing exactly where that line sits](/resources/unless-its-working-for-you-your-dog-isnt-a-tax-deduction-2), so you claim what you're entitled to and skip the deduction that gets flagged in an audit.
 
 This matters more in Brookings, SD than in most places. Farmers and agribusiness operators here often keep working dogs for livestock protection, and service-based business owners sometimes keep a dog on the premises for legitimate security reasons. The IRS doesn't care what breed you have or how much you love the animal. It cares about how the dog functions in your business or your medical care, and whether you can prove it.
