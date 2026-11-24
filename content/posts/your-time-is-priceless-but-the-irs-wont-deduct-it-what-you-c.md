@@ -16,6 +16,9 @@ canonical_url: https://trucountcpa.com/resources/your-time-is-priceless-but-the-
 schema_markup: "FAQPage"
 answer_block: "The IRS never allows a deduction for the value of your time or labor when volunteering, but unreimbursed out-of-pocket costs, like mileage at 14 cents per mile, supplies, uniforms, and some travel expenses, are deductible if you itemize and keep proper records."
 ---
+
+*By TruCount CPA  PC— Accounting, tax and advisory firm in South Dakota, serving clients in the Brookings area and throughout the Midwest*
+
 Every fall, someone at a nonprofit board meeting or a 4-H fundraiser asks the same question: can I deduct the time I spent doing this? The honest answer disappoints most people. The IRS has never allowed a deduction for the value of your labor, no matter how many hours you gave or how specialized the skill. What trips people up even more is the flip side: many volunteers assume that because their time isn't deductible, nothing about their volunteering is. That's wrong too, and it can mean leaving real money on the table every April.
 
 The out-of-pocket costs tied to volunteer work are often fully deductible. Mileage, supplies, uniforms, even some travel expenses can qualify if you know the rules and keep the receipts to back them up. Here's what actually counts, what doesn't, and how to document it so the deduction survives if the IRS ever asks.
@@ -64,16 +67,12 @@ If you're an individual filer trying to sort out what qualifies before you sit d
 
 ## Common Questions
 
-**Can I deduct the value of professional services I donate to a nonprofit, like legal or accounting work?**
-No. The IRS specifically disallows a deduction for the value of services performed, no matter how specialized the skill or what you'd normally charge for it. Only unreimbursed out-of-pocket expenses connected to that volunteer work, like mileage or supplies, are deductible.
+**Can I deduct the value of professional services I donate to a nonprofit, like legal or accounting work**?No. The IRS specifically disallows a deduction for the value of services performed, no matter how specialized the skill or what you'd normally charge for it. Only unreimbursed out-of-pocket expenses connected to that volunteer work, like mileage or supplies, are deductible.
 
-**Do I need a receipt for every small volunteer expense?**
-For donations of $250 or more, yes, you need written acknowledgment from the organization. Below that, you still need reliable records, a mileage log, receipts, or bank statements, good enough to reconstruct the expense if the IRS asks. Track it when it happens rather than trying to rebuild it later.
+**Do I need a receipt for every small volunteer expense**?For donations of $250 or more, yes, you need written acknowledgment from the organization. Below that, you still need reliable records, a mileage log, receipts, or bank statements, good enough to reconstruct the expense if the IRS asks. Track it when it happens rather than trying to rebuild it later.
 
-**What's the mileage rate for driving to volunteer activities?**
-The standard charitable mileage rate is 14 cents per mile, set by statute rather than adjusted annually for inflation like the business rate. You can also deduct actual gas and oil costs for the trip instead, whichever method you choose, keep a log of dates and destinations.
+**What's the mileage rate for driving to volunteer activities**?The standard charitable mileage rate is 14 cents per mile, set by statute rather than adjusted annually for inflation like the business rate. You can also deduct actual gas and oil costs for the trip instead, whichever method you choose, keep a log of dates and destinations.
 
-**Is it worth tracking volunteer expenses if I usually take the standard deduction?**
-Often yes, because your situation can change year to year with a larger gift, a medical expense, or a change in income that makes itemizing worthwhile. Keeping the records costs almost nothing and preserves the option, even in years the standard deduction still wins out.
+**Is it worth tracking volunteer expenses if I usually take the standard deduction**?Often yes, because your situation can change year to year with a larger gift, a medical expense, or a change in income that makes itemizing worthwhile. Keeping the records costs almost nothing and preserves the option, even in years the standard deduction still wins out.
 
 If you volunteer, sit on a nonprofit or co-op board, or run a farm or professional service business and aren't sure which of your charitable activity actually qualifies for a deduction, [get in touch with our team](/contact) before filing season gets busy. A short conversation now can save a missed deduction, or an uncomfortable audit question, later.
