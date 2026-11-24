@@ -78,12 +78,20 @@ The same framework applies to [leasing versus buying a vehicle for your operatio
 
 ## Common Questions
 
-**Is renting actually cheaper than buying long-term?** It depends on how long you stay and what else your down payment could earn. Renting is usually cheaper in the first three to five years once you count closing costs and maintenance, but ownership tends to build more net worth over a decade or more if values hold.
+**Is renting actually cheaper than buying long-term?**
 
-**Does the mortgage interest deduction make buying worth it?** Often less than people assume. You only benefit if your itemized deductions, including mortgage interest under [IRS Topic 505](https://www.irs.gov/taxtopics/tc505), exceed the standard deduction. Run your specific numbers before counting on this as a deciding factor.
+It depends on how long you stay and what else your down payment could earn. Renting is usually cheaper in the first three to five years once you count closing costs and maintenance, but ownership tends to build more net worth over a decade or more if values hold.
 
-**What's a reasonable down payment if I want to keep cash flow flexible?** 20% avoids private mortgage insurance and lowers your monthly payment, but it's not the only option. If it would drain your emergency fund or delay retirement contributions, a smaller down payment with PMI can still be sound.
+**Does the mortgage interest deduction make buying worth it?**
 
-**Should I make this decision the same way for a personal home and a business property?** The framework is similar, but business property also involves depreciation, entity structure, and your business's balance sheet. Those factors deserve a separate conversation with a CPA who knows your entity type.
+Often less than people assume. You only benefit if your itemized deductions, including mortgage interest under [IRS Topic 505](https://www.irs.gov/taxtopics/tc505), exceed the standard deduction. Run your specific numbers before counting on this as a deciding factor.
+
+**What's a reasonable down payment if I want to keep cash flow flexible?**
+
+20% avoids private mortgage insurance and lowers your monthly payment, but it's not the only option. If it would drain your emergency fund or delay retirement contributions, a smaller down payment with PMI can still be sound.
+
+**Should I make this decision the same way for a personal home and a business property?**
+
+The framework is similar, but business property also involves depreciation, entity structure, and your business's balance sheet. Those factors deserve a separate conversation with a CPA who knows your entity type.
 
 If you want help running your own rent-versus-buy numbers with real cash flow projections, [reach out to TruCount CPA PC](/contact) and we'll walk through your situation together.
