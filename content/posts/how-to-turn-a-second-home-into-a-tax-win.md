@@ -78,12 +78,20 @@ At TruCount, we handle day-count tracking and Schedule E preparation within our 
 
 ## Common Questions
 
-**What is the IRS 14-day rule for a second home?** If you rent your second home for 14 days or fewer during the tax year, you don't have to report the rental income at all, regardless of the amount collected. In exchange, you can't deduct any rental-related expenses for that year, since the IRS treats the property as entirely personal use.
+**What is the IRS 14-day rule for a second home?**
 
-**Can I deduct a loss on a second home I rent out?** Only if the property qualifies as a rental under IRS rules, meaning your personal use is 14 days or fewer, or no more than 10% of the days it's rented, whichever is greater. If personal use exceeds that threshold, your rental deductions are capped at your rental income and no loss is allowed.
+If you rent your second home for 14 days or fewer during the tax year, you don't have to report the rental income at all, regardless of the amount collected. In exchange, you can't deduct any rental-related expenses for that year, since the IRS treats the property as entirely personal use.
 
-**Is a second home the same as an investment property for tax purposes?** No. A second home you use personally more than 14 days a year (or more than 10% of rental days) is treated as a dwelling used as a home, with limited rental deductions. An investment property with minimal personal use follows different rules, including depreciation and potential loss deductions under passive activity limits.
+**Can I deduct a loss on a second home I rent out?**
 
-**Do I need to report rental income if I only rent my cabin out occasionally?** If total rental days for the year are 14 or fewer, no, that income is exempt from reporting under the 14-day rule. Once you cross 15 rental days, all rental income becomes reportable, and your deductions depend on how many days you personally used the property that same year.
+Only if the property qualifies as a rental under IRS rules, meaning your personal use is 14 days or fewer, or no more than 10% of the days it's rented, whichever is greater. If personal use exceeds that threshold, your rental deductions are capped at your rental income and no loss is allowed.
+
+**Is a second home the same as an investment property for tax purposes?**
+
+No. A second home you use personally more than 14 days a year (or more than 10% of rental days) is treated as a dwelling used as a home, with limited rental deductions. An investment property with minimal personal use follows different rules, including depreciation and potential loss deductions under passive activity limits.
+
+**Do I need to report rental income if I only rent my cabin out occasionally?**
+
+If total rental days for the year are 14 or fewer, no, that income is exempt from reporting under the 14-day rule. Once you cross 15 rental days, all rental income becomes reportable, and your deductions depend on how many days you personally used the property that same year.
 
 Weighing a lake property, a hunting cabin, or a place in the Hills? [Reach out to our team](/contact) and we'll walk through your use plans before you sign anything.
