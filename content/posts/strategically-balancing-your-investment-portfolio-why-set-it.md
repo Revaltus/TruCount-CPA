@@ -19,7 +19,7 @@ answer_block: "A balanced investment portfolio needs regular rebalancing, not a 
 
 *By TruCount CPA  PC, Accounting, tax and advisory firm in South Dakota, serving clients in the Brookings area and throughout the Midwest*
 
-Most of the farmers and business owners we sit down with in Brookings built their wealth the hard way, and they built it lopsided on purpose. A farm operation might have seventy or eighty percent of net worth locked into land and equipment. Professional service owners often have theirs tied up in the practice. That concentration isn't a mistake, it's how equity gets built. The mistake shows up later, when the same owner treats an outside brokerage account the way they treat a bin of stored grain: fill it once, check on it occasionally, and assume it's fine. It usually isn't.
+Farmers and business owners in Brookings put years of hard work into building something lasting, and it shows in the operations and practices they run. The good news is that a little ongoing attention can help your investment portfolio work just as hard. Think of it less like a bin of stored grain you fill once and leave, and more like a crop you check on through the seasons. A regular look at your allocation keeps your risk where you want it and gives you confidence in where you stand.
 
 ## Risk drifts even when you don't touch a thing
 
