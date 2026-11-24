@@ -82,10 +82,16 @@ For business vehicles, this end-of-term decision also affects your depreciation 
 
 **Is it better to lease or buy a car for tax purposes?** It depends on business use. If the vehicle is used more than 50% for business and you want a large first-year deduction, buying and financing typically wins under Section 179 rules outlined in [IRS Publication 946](https://www.irs.gov/publications/p946). If the vehicle is mostly personal use, tax treatment is less of a factor and cash flow, mileage, and how long you keep vehicles should drive the decision.
 
-**Can I deduct lease payments on a business vehicle?** Yes. Lease payments on a vehicle used for business can generally be deducted as an ordinary business expense, prorated for business-use percentage, spread across the term of the lease rather than taken as a single upfront deduction.
+**Can I deduct lease payments on a business vehicle?**
 
-**How does Section 179 work for a farm truck or work vehicle?** Heavy vehicles over 6,000 pounds gross vehicle weight rating used primarily for farm or business purposes often qualify for a larger first-year deduction than passenger cars. The specific dollar limits change annually, so it's worth confirming current thresholds before finalizing a purchase.
+Yes. Lease payments on a vehicle used for business can generally be deducted as an ordinary business expense, prorated for business-use percentage, spread across the term of the lease rather than taken as a single upfront deduction.
 
-**Should I buy out my lease at the end of the term?** Buy it out if the residual value stated in your lease contract is lower than the vehicle's current market value or trade-in value. Otherwise, returning the vehicle and starting fresh, or buying a different vehicle outright, usually makes more financial sense.
+**How does Section 179 work for a farm truck or work vehicle?**
+
+Heavy vehicles over 6,000 pounds gross vehicle weight rating used primarily for farm or business purposes often qualify for a larger first-year deduction than passenger cars. The specific dollar limits change annually, so it's worth confirming current thresholds before finalizing a purchase.
+
+**Should I buy out my lease at the end of the term?**
+
+Buy it out if the residual value stated in your lease contract is lower than the vehicle's current market value or trade-in value. Otherwise, returning the vehicle and starting fresh, or buying a different vehicle outright, usually makes more financial sense.
 
 If you're weighing a vehicle purchase for your farm, service business, or family, and want the numbers run against your actual tax situation instead of a dealership's payment calculator, [reach out to our team](/contact) and we'll walk through it together.
