@@ -70,8 +70,12 @@ That's a financial decision, not a lifestyle one. If recurring costs are keeping
 
 ## Common Questions
 
-**Is self-care really a financial issue, or just a personal one?** It's both, but the financial side is easy to overlook. Fatigue and chronic stress measurably reduce decision-making quality, which shows up as missed deductions, late filings, and reactive spending. Protecting your judgment protects your bottom line.
+**Is self-care really a financial issue, or just a personal one?**
 
-**Can outsourcing bookkeeping actually reduce burnout?** Yes, for most owners it's one of the fastest changes available. Handing off transaction classification, reconciliation, and payroll to a firm working from a secure online platform frees hours each week and removes a source of chronic low-grade stress, without requiring you to hire in-house staff.
+It's both, but the financial side is easy to overlook. Fatigue and chronic stress measurably reduce decision-making quality, which shows up as missed deductions, late filings, and reactive spending. Protecting your judgment protects your bottom line.
+
+**Can outsourcing bookkeeping actually reduce burnout?**
+
+Yes, for most owners it's one of the fastest changes available. Handing off transaction classification, reconciliation, and payroll to a firm working from a secure online platform frees hours each week and removes a source of chronic low-grade stress, without requiring you to hire in-house staff.
 
 If running your farm or service business is starting to feel like it's running you, [get in touch](/contact) and let's talk about what taking some of that weight off your plate could actually look like.
