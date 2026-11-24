@@ -16,6 +16,9 @@ canonical_url: https://trucountcpa.com/resources/how-to-turn-a-second-home-into-
 schema_markup: "FAQPage"
 answer_block: "Under IRS rules, a second home's tax treatment hinges on personal-use days versus rental days. Rent it 14 days or fewer and the income is tax-free with no deductions; exceed that threshold and it becomes either a limited-deduction residence or a rental property capable of generating deductible losses, depending on how many days you personally use it."
 ---
+
+*By TruCount CPA  PC— Accounting, tax and advisory firm in South Dakota, serving clients in the Brookings area and throughout the Midwest*
+
 Buying a cabin at Lake Poinsett or a place in the Black Hills sounds like a lifestyle decision. For the IRS, it's a math problem. The number of days you personally use that property versus the number of days you rent it out determines whether your second home works like a tax shelter, a rental business, or something in between. Get the days wrong and you could lose deductions you assumed were automatic, or trigger income reporting you didn't expect.
 
 Most second-home advice out there comes from real estate agents talking about resale value and mortgage rates. That's useful, but it skips the part that actually affects your tax bill: how the IRS classifies the property based on your use. Here's how that classification works and what it means for your return.
