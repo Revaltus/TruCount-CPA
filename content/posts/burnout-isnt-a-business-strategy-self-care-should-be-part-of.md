@@ -24,7 +24,7 @@ Your judgment, risk assessment, and long-term planning are among the most valuab
 
 Think about the decisions that actually move the needle in your business: whether to take on a new client, when to buy equipment, how to structure next year's taxes, whether that fertilizer contract is priced fairly. None of those decisions get better when you're running on empty. Research consistently shows that sleep deprivation and chronic stress impair working memory and increase impulsive choices, which is a fancy way of saying tired owners make expensive mistakes.
 
-Kristy and Brandi have been with TruCount CPA PC for 13 years and bring 51 years of combined accounting experience, so we know how much early financial signals matter. Imagine an owner with a great business idea who is stretched thin and misses a cash flow gap, a payroll tax deadline, or an invoice that slipped through the cracks. Those are capacity problems, not skill problems, and [judgment is the first thing burnout takes from you](/resources/your-money-mindset-is-costing-your-small-business-more-than).
+TruCount CPA PC brings over 50 years of combined accounting experience, so we know how much early financial signals matter. Imagine an owner with a great business idea who is stretched thin and misses a cash flow gap, a payroll tax deadline, or an invoice that slipped through the cracks. Those are capacity problems, not skill problems, and [judgment is the first thing burnout takes from you](/resources/your-money-mindset-is-costing-your-small-business-more-than).
 
 The [SBA's guidance on managing your business](https://www.sba.gov/business-guide/manage-your-business) puts sustainable operations right alongside growth planning for a reason. A business that can't sustain its owner can't sustain itself.
 
@@ -75,16 +75,12 @@ If recurring monthly costs are part of what's keeping you up at night, it's wort
 
 ## Common Questions
 
-**Is self-care really a financial issue, or just a personal one?**
-It's both, but the financial side is easy to overlook. Fatigue and chronic stress measurably reduce decision-making quality, which shows up as missed deductions, late filings, and reactive spending. Protecting your judgment protects your bottom line.
+**Is self-care really a financial issue, or just a personal one?** It's both, but the financial side is easy to overlook. Fatigue and chronic stress measurably reduce decision-making quality, which shows up as missed deductions, late filings, and reactive spending. Protecting your judgment protects your bottom line.
 
-**How do I know if burnout is already affecting my business decisions?**
-Common signs include skipping financial reviews, reacting to problems instead of catching them early, and putting off decisions you'd normally make quickly. If tax planning or cash flow forecasting keeps getting pushed to "next week," that's usually a capacity problem, not a time problem.
+**How do I know if burnout is already affecting my business decisions?** Common signs include skipping financial reviews, reacting to problems instead of catching them early, and putting off decisions you'd normally make quickly. If tax planning or cash flow forecasting keeps getting pushed to "next week," that's usually a capacity problem, not a time problem.
 
-**Can outsourcing bookkeeping actually reduce burnout?**
-Yes, for most owners it's one of the fastest changes available. Handing off transaction classification, reconciliation, and payroll to a firm working from a secure online platform frees hours each week and removes a source of chronic low-grade stress, without requiring you to hire in-house staff.
+**Can outsourcing bookkeeping actually reduce burnout?** Yes, for most owners it's one of the fastest changes available. Handing off transaction classification, reconciliation, and payroll to a firm working from a secure online platform frees hours each week and removes a source of chronic low-grade stress, without requiring you to hire in-house staff.
 
-**What's one financial habit that supports both rest and growth?**
-Scheduling recurring, non-negotiable time for financial review, even 30 minutes a week, tends to have the biggest payoff. It catches small issues before they become expensive ones and reduces the anxiety of not knowing where things stand.
+**What's one financial habit that supports both rest and growth?** Scheduling recurring, non-negotiable time for financial review, even 30 minutes a week, tends to have the biggest payoff. It catches small issues before they become expensive ones and reduces the anxiety of not knowing where things stand.
 
 If running your farm or service business is starting to feel like it's running you, [get in touch](/contact) and let's talk about what taking some of that weight off your plate could actually look like.
