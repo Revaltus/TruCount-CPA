@@ -21,7 +21,7 @@ answer_block: "A dog care tax deduction generally only applies to service animal
 
 Say a client's golden retriever "guards the office" by napping under the desk. Is he a business expense? Almost always no. But a handful of narrow, well-documented situations exist where a dog really can reduce what you owe. If you're a farmer, a service-business owner, or someone managing a chronic condition, it's worth [knowing exactly where that line sits](/resources/unless-its-working-for-you-your-dog-isnt-a-tax-deduction-2), so you claim what you're entitled to and skip the deduction that gets flagged in an audit.
 
-This matters more in Brookings, SD than in most places. Farmers and agribusiness operators here often keep working dogs for livestock protection, and service-based business owners sometimes keep a dog on site for security. The IRS doesn't care about breed or how much you love the animal. It cares how the dog functions in your business or medical care, and whether you can prove it.
+This matters more in South Dakota than in most places. Farmers and agribusiness operators here often keep working dogs for livestock protection, and service-based business owners sometimes keep a dog on site for security. The IRS doesn't care about breed or how much you love the animal. It cares how the dog functions in your business or medical care, and whether you can prove it.
 
 ## Why pets don't qualify as a deduction
 
