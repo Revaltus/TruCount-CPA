@@ -16,6 +16,9 @@ canonical_url: https://trucountcpa.com/resources/insuring-where-it-counts-avoid-
 schema_markup: "FAQPage"
 answer_block: "How much insurance coverage you need depends on your liquid net worth, fixed assets at risk, and annual cash flow, not a generic rule of thumb. Coverage should fill the gap between what a major loss would cost and what you could absorb without borrowing or selling assets, and it should be reviewed at least annually as your business or family finances change."
 ---
+
+*By TruCount CPA  PC— Accounting, tax and advisory firm in South Dakota, serving clients in the Brookings area and throughout the Midwest*
+
 Ask five people how much insurance coverage you need and you'll get five different rules of thumb: ten times your salary in life insurance, full replacement cost on every building, a flat $1 million in liability because that's what everyone else carries. None of those numbers come from anything specific to your farm, your service business, or your family's actual finances. They're guesses dressed up as guidance. The better question isn't which policies to buy. It's how much financial exposure you actually have, and how much of it you can afford to absorb yourself before insurance needs to cover the rest.
 
 This conversation comes up at TruCount CPA PC more often through tax planning than through insurance shopping. A client's premiums jump, their equipment list grows, or they hire a second employee, and the coverage they bought five years ago no longer matches the business sitting in front of them. Some parts end up underinsured. Other parts sit quietly overinsured, draining cash every month for protection nobody needs. Julie Underwood, CPA, and the team have watched both mistakes cost real money for farmers in Kingsbury and Moody counties and service business owners across Brookings, SD.
