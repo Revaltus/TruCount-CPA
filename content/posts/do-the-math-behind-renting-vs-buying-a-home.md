@@ -16,6 +16,9 @@ canonical_url: https://trucountcpa.com/resources/do-the-math-behind-renting-vs-b
 schema_markup: "FAQPage"
 answer_block: "Buying beats renting financially when you plan to stay five or more years, can absorb unplanned maintenance costs of $3,000-$6,000 a year, and the return on your down payment elsewhere wouldn't outpace home equity growth. Renting wins for shorter timelines or when transaction costs, typically 8-10% of a home's value, would erase early equity gains."
 ---
+
+*By TruCount CPA  PC— Accounting, tax and advisory firm in South Dakota, serving clients in the Brookings area and throughout the Midwest*
+
 Somebody asks this question at nearly every tax appointment in Brookings: should I keep renting, or is it time to buy? The conversation usually starts with feelings, market timing, or what a neighbor did last year. It rarely starts with a spreadsheet, and that's the problem. Renting versus buying isn't a lifestyle question dressed up as a financial one. It's a personal financial-statement decision, and it deserves the same discipline you'd apply to any business investment.
 
 At TruCount CPA PC, we treat this the way we'd treat a client asking whether to lease or purchase equipment for their operation. The right answer depends on cash flow, opportunity cost, and how long you plan to hold the asset, not on whether home prices went up last quarter.
