@@ -16,6 +16,9 @@ canonical_url: https://trucountcpa.com/resources/strategically-balancing-your-in
 schema_markup: "BlogPosting"
 answer_block: "A balanced investment portfolio needs regular rebalancing, not a one-time setup, because market gains alone can shift your risk exposure well beyond your original allocation. For farmers and business owners whose net worth is already concentrated in land or business equity, rebalancing decisions should be timed with tax strategies like income averaging and deferred grain contracts."
 ---
+
+*By TruCount CPA  PC— Accounting, tax and advisory firm in South Dakota, serving clients in the Brookings area and throughout the Midwest*
+
 Most of the farmers and business owners we sit down with in Brookings built their wealth the hard way, and they built it lopsided on purpose. A farm operation might have seventy or eighty percent of net worth locked into land and equipment. A professional service business owner has the bulk of theirs tied up in the practice itself. That concentration isn't a mistake, it's how equity gets built in agriculture and professional services. The mistake shows up later, when the same owner treats an outside brokerage account the way they treat a bin of stored grain: fill it once, check on it occasionally, and assume it's fine. It usually isn't.
 
 ## Risk drifts even when you don't touch a thing
@@ -44,16 +47,12 @@ We don't pick your stocks or manage your brokerage account. What we do is model 
 
 ## Common Questions
 
-**How often should I rebalance my investment portfolio?**
-Once a year is a reasonable baseline for most people, tied to a specific month rather than "whenever I think of it." Farmers and business owners often get more value pairing that review with tax planning season, since the rebalance and the tax bill from it should be decided together, not discovered separately.
+**How often should I rebalance my investment portfolio**?Once a year is a reasonable baseline for most people, tied to a specific month rather than "whenever I think of it." Farmers and business owners often get more value pairing that review with tax planning season, since the rebalance and the tax bill from it should be decided together, not discovered separately.
 
-**Does rebalancing always trigger a tax bill?**
-Only in a taxable account, and only on the gains you actually realize when you sell. Rebalancing inside an IRA or 401(k) doesn't trigger a current tax event, which is one reason many advisors rebalance retirement accounts first and taxable accounts more carefully.
+**Does rebalancing always trigger a tax bill**?Only in a taxable account, and only on the gains you actually realize when you sell. Rebalancing inside an IRA or 401(k) doesn't trigger a current tax event, which is one reason many advisors rebalance retirement accounts first and taxable accounts more carefully.
 
-**How does farm income averaging affect a portfolio rebalance?**
-Schedule J lets a farmer spread a high-income year, crop sale gains included, back over the prior three years' tax rates. If a rebalance lands in a year with strong farm income, coordinating the two can meaningfully lower the combined tax bill compared to treating them as separate decisions.
+**How does farm income averaging affect a portfolio rebalance**?Schedule J lets a farmer spread a high-income year, crop sale gains included, back over the prior three years' tax rates. If a rebalance lands in a year with strong farm income, coordinating the two can meaningfully lower the combined tax bill compared to treating them as separate decisions.
 
-**What does a balanced portfolio look like for someone whose net worth is mostly land or business equity?**
-It looks lighter on assets correlated to your existing concentration, land, commodities, or your own industry, and heavier on broad, liquid diversification you can access without selling the farm or the practice. The right mix depends on your actual balance sheet, not a generic age-based rule.
+**What does a balanced portfolio look like for someone whose net worth is mostly land or business equity**?It looks lighter on assets correlated to your existing concentration, land, commodities, or your own industry, and heavier on broad, liquid diversification you can access without selling the farm or the practice. The right mix depends on your actual balance sheet, not a generic age-based rule.
 
 If your investment accounts haven't been rebalanced since the last time you thought about it, that's worth a conversation before your next tax filing, not after. [Contact TruCount CPA PC](/contact) and we'll walk through what a coordinated rebalance actually costs and saves for your specific situation.
