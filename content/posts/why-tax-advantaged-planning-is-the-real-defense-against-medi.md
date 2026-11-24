@@ -16,6 +16,9 @@ canonical_url: https://trucountcpa.com/resources/why-tax-advantaged-planning-is-
 schema_markup: "BlogPosting"
 answer_block: "Planning for unexpected medical expenses means combining a cash reserve with tax-advantaged tools, primarily an HSA for pre-tax savings and tax-free withdrawals, plus timing elective medical costs to clear the 7.5% AGI threshold for the itemized medical expense deduction. Savings alone rarely covers the real cost of a medical crisis without a tax strategy behind it."
 ---
+
+*By TruCount CPA  PC— Accounting, tax and advisory firm in South Dakota, serving clients in the Brookings area and throughout the Midwest*
+
 A knee replacement, a cancer diagnosis, a kid's emergency surgery. Nobody plans for these, and yet almost every family we work with in Brookings faces some version of it eventually. The instinct is to build a savings cushion and hope it's enough. That's a reasonable start, but it's not a plan. The families and business owners who come through a medical crisis with their finances intact are almost always the ones who set up their tax strategy before the bill arrived, not after.
 
 The Federal Reserve's [Report on the Economic Well-Being of U.S. Households](https://www.federalreserve.gov/publications/report-economic-well-being-us-households.htm) has tracked for years how many households can't absorb a $400 surprise expense without borrowing or selling something. Medical bills routinely run into the thousands, and a savings account alone rarely closes that gap. What closes it is a combination: money set aside in the right account, and a tax return built to capture every dollar the IRS already allows you to deduct.
@@ -48,16 +51,12 @@ The common thread across every scenario: waiting until the bill arrives to think
 
 ## Common Questions
 
-**How much should I keep in an emergency fund versus an HSA?**
-A reasonable split is three to six months of living expenses in a liquid emergency fund, with your HSA funded up to the annual limit if your health plan qualifies. The HSA money should be treated as untouchable except for medical costs, since it's the only account offering tax-free growth and tax-free withdrawals for that purpose.
+**How much should I keep in an emergency fund versus an HSA**?A reasonable split is three to six months of living expenses in a liquid emergency fund, with your HSA funded up to the annual limit if your health plan qualifies. The HSA money should be treated as untouchable except for medical costs, since it's the only account offering tax-free growth and tax-free withdrawals for that purpose.
 
-**Do I need to itemize to get any tax benefit from medical expenses?**
-Yes, for the medical expense deduction specifically, since it only applies if your itemized deductions exceed the standard deduction. HSA contributions are different and reduce your taxable income regardless of whether you itemize, which is one reason the HSA is usually the more reliable tax benefit for most households.
+**Do I need to itemize to get any tax benefit from medical expenses**?Yes, for the medical expense deduction specifically, since it only applies if your itemized deductions exceed the standard deduction. HSA contributions are different and reduce your taxable income regardless of whether you itemize, which is one reason the HSA is usually the more reliable tax benefit for most households.
 
-**Can I use HSA funds for a family member's medical bills?**
-You can use HSA funds for your spouse and any tax dependents, even if they're not covered under your specific high-deductible health plan. Keep receipts, since the IRS can ask for documentation showing the withdrawal went toward a qualified expense listed in Publication 502.
+**Can I use HSA funds for a family member's medical bills**?You can use HSA funds for your spouse and any tax dependents, even if they're not covered under your specific high-deductible health plan. Keep receipts, since the IRS can ask for documentation showing the withdrawal went toward a qualified expense listed in Publication 502.
 
-**What happens if my medical expenses don't hit the 7.5% AGI threshold?**
-If they don't, you get no deduction for that year under current law, which is exactly why timing elective procedures matters. Bunching predictable expenses like dental work or new glasses into a year when you're already near the threshold, rather than spreading them out, is a decision your accountant can help you time before December 31.
+**What happens if my medical expenses don't hit the 7.5% AGI threshold**?If they don't, you get no deduction for that year under current law, which is exactly why timing elective procedures matters. Bunching predictable expenses like dental work or new glasses into a year when you're already near the threshold, rather than spreading them out, is a decision your accountant can help you time before December 31.
 
 If a medical event, an aging parent's care needs, or just the uncertainty of not having a plan has been sitting in the back of your mind, [reach out to our team](/contact) and we'll walk through what an HSA, your deduction picture, and your reserve fund should actually look like for your situation.
