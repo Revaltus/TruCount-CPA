@@ -21,7 +21,7 @@ answer_block: "How much insurance coverage you need depends on your liquid net w
 
 Ask five people how much insurance coverage you need and you'll get five different rules of thumb: ten times your salary in life insurance, full replacement cost on every building, a flat $1 million in liability because that's what everyone else carries. None of those numbers come from anything specific to your farm, your service business, or your family's actual finances. They're guesses dressed up as guidance. The better question isn't which policies to buy. It's how much financial exposure you actually have, and how much of it you can afford to absorb yourself before insurance needs to cover the rest.
 
-This conversation comes up at TruCount CPA PC more often through tax planning than through insurance shopping. Premiums jump, the equipment list grows, or a second employee joins, and coverage bought years ago no longer fits. Some parts end up underinsured, while others sit overinsured, draining cash every month for protection nobody needs. Both mistakes cost real money for farmers and service business owners across Brookings, SD.
+This conversation comes up at TruCount CPA PC more often through tax planning than through insurance shopping. Premiums jump, the equipment list grows, or a second employee joins, and coverage bought years ago no longer fits. Some parts end up underinsured, while others sit overinsured, draining cash every month for protection nobody needs. Both mistakes cost real money for farmers and service business owners across South Dakota.
 
 ## Insurance is a math problem, not a shopping list
 
