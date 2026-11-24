@@ -40,9 +40,9 @@ The right card depends on where your money actually goes, not the sign-up bonus 
 | Service-based business | Software, office supplies, travel, client meals | Cards with 2-3x points on software/office and travel categories |
 | Multi-owner LLC with mixed spend | Varies widely across owners | Cards allowing employee/owner sub-cards with individual spend tracking |
 
-Consider a hypothetical service business where software and office purchases make up 40% of annual spend. Switching from a generic card to one paying 3x points on those categories could add hundreds of dollars in value with no change in habits. The strategy isn't spending more. It's making sure the spending you already do earns at the right rate.
+Consider a service business where software and office purchases make up 40% of annual spend. Switching from a generic card to one paying 3x points on those categories could add hundreds of dollars in value with no change in habits. The strategy isn't spending more. It's making sure the spending you already do earns at the right rate.
 
-## Are business credit card rewards taxable
+## Are business credit card rewards taxable?
 
 The short answer is usually no. Rewards earned on purchases, whether cash back, points, or miles, are generally treated as a rebate on the purchase price rather than income. Sign-up bonuses that don't require a purchase, referral bonuses, and interest on rewards balances can be treated as income and need to be reported.
 
@@ -69,16 +69,12 @@ Talk with your bookkeeper before you apply. A card that looks great on paper can
 
 ## Common Questions
 
-**Are credit card rewards taxable for a small business?**
-Generally no, when earned through normal business purchases. The IRS typically treats them as a rebate. Bonuses without a purchase requirement, or interest on a rewards balance, may need to be reported. Check the [IRS Small Business and Self-Employed Tax Center](https://www.irs.gov/businesses/small-businesses-self-employed) for current specifics on your situation.
+**Are credit card rewards taxable for a small business?** Generally no, when earned through normal business purchases. The IRS typically treats them as a rebate. Bonuses without a purchase requirement, or interest on a rewards balance, may need to be reported. Check the [IRS Small Business and Self-Employed Tax Center](https://www.irs.gov/businesses/small-businesses-self-employed) for current specifics on your situation.
 
-**What's the best business credit card for a farm or agribusiness operation?**
-There's no single best card, but the strongest fit is usually one with elevated rewards on fuel and farm supply, since those often make up the bulk of spend for row crop and livestock operations.
+**What's the best business credit card for a farm or agribusiness operation?** There's no single best card, but the strongest fit is usually one with elevated rewards on fuel and farm supply, since those often make up the bulk of spend for row crop and livestock operations.
 
-**How do I maximize business credit card points without overspending?**
-Match bonus categories to spending you already do, review twelve months of transactions before applying, and reconcile redemptions monthly so rebates show up in your books.
+**How do I maximize business credit card points without overspending?** Match bonus categories to spending you already do, review twelve months of transactions before applying, and reconcile redemptions monthly so rebates show up in your books.
 
-**Should credit card rewards factor into my tax planning?**
-Yes, in a small but real way. Rebates reduce recorded expenses, which affects net income, and bonus income needs to be tracked separately. Folding this into year-round tax planning keeps the numbers accurate.
+**Should credit card rewards factor into my tax planning?** Yes, in a small but real way. Rebates reduce recorded expenses, which affects net income, and bonus income needs to be tracked separately. Folding this into year-round tax planning keeps the numbers accurate.
 
 Not sure your current card fits how your business spends? [Reach out through our contact page](/contact) and we'll walk through it together.
