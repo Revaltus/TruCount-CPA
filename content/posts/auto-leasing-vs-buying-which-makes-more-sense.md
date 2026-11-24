@@ -16,6 +16,9 @@ canonical_url: https://trucountcpa.com/resources/auto-leasing-vs-buying-which-ma
 schema_markup: "FAQPage"
 answer_block: "Buying a vehicle usually wins financially if you drive over 12,000-15,000 miles a year, keep vehicles 6+ years, or use it heavily for business, since it can qualify for Section 179 depreciation. Leasing tends to fit lower-mileage drivers who want a newer vehicle every few years with a smaller monthly payment."
 ---
+
+*By TruCount CPA  PC— Accounting, tax and advisory firm in South Dakota, serving clients in the Brookings area and throughout the Midwest*
+
 If you've sat in a dealership finance office and watched the salesperson slide a lease quote across the desk right next to a loan quote, you already know the pitch: "Same payment, newer car, no worries." What they're not telling you is how the decision actually plays out on your tax return, your balance sheet, or your cash flow three years from now. That's the piece Julie Underwood, CPA, walks through with clients at TruCount CPA PC before they sign anything, whether it's a family sedan or a service truck for a Brookings-based contracting business.
 
 The [lease-versus-buy question](/resources/auto-leasing-vs-buying-which-makes-more-sense-2) isn't one-size-fits-all, and it shouldn't be answered by a payment calculator alone. Your mileage habits, whether the vehicle is used for business, and how you want to handle depreciation all change the math. Here's the framework we use with clients across Brookings, Kingsbury, and Moody counties, and how it applies whether you're buying a personal vehicle or adding a truck to an agribusiness fleet.
