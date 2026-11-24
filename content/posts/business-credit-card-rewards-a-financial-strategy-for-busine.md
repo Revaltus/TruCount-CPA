@@ -16,6 +16,9 @@ canonical_url: https://trucountcpa.com/resources/business-credit-card-rewards-a-
 schema_markup: "FAQPage"
 answer_block: "Credit card rewards earned through normal business purchases are generally not taxable, since the IRS treats them as a rebate rather than income. To build a real strategy, match your card's bonus categories to your top actual spending categories, such as fuel and farm supply for agriculture businesses or software and office costs for service businesses, and reconcile redemptions monthly so rebates show up accurately in your books."
 ---
+
+*By TruCount CPA  PC— Accounting, tax and advisory firm in South Dakota, serving clients in the Brookings area and throughout the Midwest*
+
 You get the credit card statement at the end of the month, scan for anything unusual, and notice a few thousand points sitting there from fuel purchases, tractor parts, or office software subscriptions. Most business owners treat those points as a nice bonus and move on. That's a missed opportunity. Credit card rewards, handled with intention, function as a cash-flow tool and a bookkeeping consideration, not just a loyalty perk. The card you choose and the way you track what it earns can shave real dollars off your annual spend and keep your books clean at tax time.
 
 At TruCount CPA PC, we work with farmers around Brookings and Kingsbury County, agribusiness operators across Moody County, and service-based business owners who run everything from a plumbing company to a marketing agency. Nearly every one of them carries at least one business credit card. Few have matched that card to how their business actually spends money.
