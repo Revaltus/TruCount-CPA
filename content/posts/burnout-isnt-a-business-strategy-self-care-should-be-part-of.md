@@ -16,15 +16,15 @@ canonical_url: https://trucountcpa.com/resources/burnout-isnt-a-business-strateg
 schema_markup: "FAQPage"
 answer_block: "Self-care for business owners is a financial safeguard because burnout impairs the judgment needed to catch costly mistakes, from missed tax deadlines to overlooked deductions like the R&D credit or excess fertility deduction. Protecting rest and delegating repetitive financial tasks preserves the decision-making capacity that keeps a business solvent and growing."
 ---
-You know the feeling: it's 9 p.m., the shop lights are still on, and you're reconciling invoices instead of eating dinner with your family. Somewhere along the way, exhaustion became a badge of honor for business owners. But running yourself into the ground doesn't make your farm or your service business more profitable. It makes you more likely to miss a deadline, misread a contract, or overlook a deduction that could have put real money back in your pocket.
+Picture a weeknight where the shop lights are off and you're at the dinner table with your family, fully present. Your books are current, your next tax move is already planned, and you're making decisions with a clear head. That's very doable, and protecting your energy is one of the smartest growth moves a farm or service business owner can make. A rested owner is the one who spots the opportunity, the deduction, and the deadline in time.
 
-We've watched this play out with farmers managing calving season on four hours of sleep and with service business owners answering client emails from a hospital waiting room. The instinct to push through is understandable. It's also, financially speaking, a liability. Fatigue doesn't just wear on your body. It wears on the part of your brain responsible for judgment, risk assessment, and long-term planning, which happens to be the exact part of your brain your business depends on most.
+Your judgment, risk assessment, and long-term planning are among the most valuable assets in your business. When you give them room to work, you make sharper calls in calving season, planting season, or a busy quarter. Here's how to build rest into your growth plan so you and your business can keep thriving.
 
 ## Burnout is a financial risk, not just a personal one
 
 Think about the decisions that actually move the needle in your business: whether to take on a new client, when to buy equipment, how to structure next year's taxes, whether that fertilizer contract is priced fairly. None of those decisions get better when you're running on empty. Research consistently shows that sleep deprivation and chronic stress impair working memory and increase impulsive choices, which is a fancy way of saying tired owners make expensive mistakes.
 
-We've seen it firsthand over 13 years working alongside Kristy and Brandi, who together bring 51 years of combined accounting experience to TruCount CPA PC. The owners who burn out don't usually fail because their business idea was bad. They fail, or come close to it, because they stopped catching the small financial signals early: a cash flow gap, a missed payroll tax deadline, a client invoice that slipped through the cracks for two months. Those are judgment failures, not skill failures, and [judgment is the first thing burnout takes from you](/resources/your-money-mindset-is-costing-your-small-business-more-than).
+Kristy and Brandi have been with TruCount CPA PC for 13 years and bring 51 years of combined accounting experience, so we know how much early financial signals matter. Imagine an owner with a great business idea who is stretched thin and misses a cash flow gap, a payroll tax deadline, or an invoice that slipped through the cracks. Those are capacity problems, not skill problems, and [judgment is the first thing burnout takes from you](/resources/your-money-mindset-is-costing-your-small-business-more-than).
 
 The [SBA's guidance on managing your business](https://www.sba.gov/business-guide/manage-your-business) puts sustainable operations right alongside growth planning for a reason. A business that can't sustain its owner can't sustain itself.
 
@@ -65,7 +65,7 @@ Block time on your calendar for financial review the same way you'd block time f
 
 Set a hard stop for checking business email or the books each evening. Decision fatigue accumulates by the hour, and the decisions you make at 10 p.m. are rarely your best ones.
 
-Hand off the tasks that don't require your specific judgment. Reconciling transactions doesn't need the owner. Deciding whether to expand acreage does—or [how to budget for labor costs](/resources/the-great-rebalancing-why-the-new-labor-market-demands-a-fin).
+Hand off the tasks that don't require your specific judgment. Reconciling transactions doesn't need the owner. Deciding whether to expand acreage does, or [how to budget for labor costs](/resources/the-great-rebalancing-why-the-new-labor-market-demands-a-fin).
 
 Build slower seasons into your actual plan, not just your hope. Farmers already think in seasons. Service businesses can too, by identifying the quieter months and protecting them.
 
