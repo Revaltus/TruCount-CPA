@@ -16,6 +16,9 @@ canonical_url: https://trucountcpa.com/resources/long-term-care-how-you-can-fina
 schema_markup: "FAQPage"
 answer_block: "Long-term care planning costs are best managed years in advance through a combination of long-term care insurance purchased while you're still insurable, the VA Aid and Attendance benefit for eligible veterans, and dedicated personal savings, since local nursing home care in South Dakota can run $8,000 to $10,000 a month."
 ---
+
+*By TruCount CPA  PC— Accounting, tax and advisory firm in South Dakota, serving clients in the Brookings area and throughout the Midwest*
+
 A lot of families in Kingsbury and Moody counties think long-term care is something you deal with when it happens, not something you plan for a decade ahead of time. By the time a parent needs help with daily living, the family is scrambling to figure out how to pay for it, and the options left on the table are usually the most expensive ones. Long-term care is a financial risk, not just a health event, and it deserves the same kind of planning you'd put into [retirement savings or a farm succession plan](/resources/long-term-care-how-you-can-financially-prepare-for-the-expen-2).
 
 The numbers involved are bigger than most people expect. A private room in a South Dakota nursing home commonly runs $8,000 to $10,000 a month, and assisted living facilities in the Brookings area often land between $3,500 and $5,500 monthly depending on the level of care. Multiply that by even two years and you're looking at a six-figure expense that Medicare does not cover beyond a short post-hospital stay. Medicaid can help, but only after a person has spent down most of their assets, which is exactly the outcome most families are trying to avoid.
