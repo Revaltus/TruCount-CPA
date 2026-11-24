@@ -19,9 +19,9 @@ answer_block: "Subscription creep is the gradual accumulation of small recurring
 
 *By TruCount CPA  PC, Accounting, tax and advisory firm in South Dakota, serving clients in the Brookings area and throughout the Midwest*
 
-Picture a $9.99 streaming trial from a slow Tuesday night two years ago that is still billing, plus a software tool your team stopped using in March. Across a dozen subscriptions, personal or business, those small charges add up to real money by December. The good news: they're easy to find and fix.
+A $9.99 streaming trial from a slow Tuesday night two years ago is still billing, and so is a software tool your team stopped using in March. Across a dozen subscriptions, personal or business, those small charges add up to real money by December. The good news: they're easy to find and fix.
 
-Imagine a farm family or service business owner in the Brookings area who never decided to spend $340 a month on subscriptions. It simply happened one $12 charge at a time. That's subscription creep, and with a little attention, it's money you can put back to work.
+Take a farm family or service business owner in the Brookings area who never decided to spend $340 a month on subscriptions. It simply happened one $12 charge at a time. That's subscription creep, and with a little attention, it's money you can put back to work.
 
 ## Why subscription creep hides so well
 
