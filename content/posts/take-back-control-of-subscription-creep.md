@@ -16,6 +16,9 @@ canonical_url: https://trucountcpa.com/resources/take-back-control-of-subscripti
 schema_markup: "FAQPage"
 answer_block: "Subscription creep is the gradual accumulation of small recurring charges, personal or business, that go unnoticed and quietly drain cash flow. The fix is a quarterly audit of every recurring charge, paired with real-time bookkeeping so unused subscriptions get flagged before they add up over months."
 ---
+
+*By TruCount CPA  PC— Accounting, tax and advisory firm in South Dakota, serving clients in the Brookings area and throughout the Midwest*
+
 That $9.99 streaming trial you signed up for during a slow Tuesday night two years ago is still billing you. So is the software tool your bookkeeper stopped using in March. Multiply that across a dozen subscriptions, personal or business, and you've got a quiet leak in your budget that never shows up as one big number, just a string of small ones that add up to real money by December.
 
 We see this constantly with farm families and service business owners across Brookings, Kingsbury, and Moody counties. Nobody sits down and decides to spend $340 a month on subscriptions. It happens one $12 charge at a time, and because each charge is small, nobody flags it as a problem worth solving. That's subscription creep, and it deserves the same attention you'd give any other line item on your budget.
